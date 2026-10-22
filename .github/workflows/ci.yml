@@ -35,7 +35,7 @@ jobs:
       - run: npm audit --omit=dev --audit-level=moderate
       - run: npm run test:package
       - run: npm run test:e2e
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: verification-${{ matrix.os }}-node${{ matrix.node }}
@@ -54,7 +54,7 @@ jobs:
       - run: npm ci
       - run: npm run qa:audit
       - run: npm run test:e2e:published
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: published-release-verification

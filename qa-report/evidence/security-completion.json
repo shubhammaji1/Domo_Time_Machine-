@@ -1,0 +1,29 @@
+{
+  "scanId": "ff65c68f-7c2a-47b4-9549-7ab1ad03c423",
+  "checkedAt": "2026-10-22T05:54:18.212977Z",
+  "status": "COMPLETE — PARTIAL REVIEW COVERAGE",
+  "detail": "The saved scan was successfully finalized on continuation. No confirmed reportable vulnerabilities were recorded within partial review coverage. The earlier completion subprocess failure did not provide a diagnostic cause. The plugin retained original-snapshot results and warnings about temporary target unavailability and directory changes; this is not certification of every current file.",
+  "warnings": [
+    "The scan target became unavailable while the scan was running; results were saved for the original revision or snapshot.",
+    "Directory contents changed while the scan was running; results were saved for the original snapshot."
+  ],
+  "artifacts": {
+    "coverage": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\coverage.json",
+    "findings": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\findings.json",
+    "manifest": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\scan-manifest.json",
+    "markdownReport": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\report.md",
+    "sarifReport": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\exports\\results.sarif",
+    "threatModel": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\threatmodel.md"
+  },
+  "usage": {
+    "cacheWriteInputTokens": 0,
+    "cachedInputTokens": 8232704,
+    "coverage": "complete",
+    "inputTokens": 8733328,
+    "outputTokens": 46981,
+    "reasoningOutputTokens": 10680,
+    "source": "codex_rollout",
+    "threadCount": 1,
+    "totalTokens": 8780309
+  }
+}

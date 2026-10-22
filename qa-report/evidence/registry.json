@@ -1,0 +1,106 @@
+{
+  "_id": "domo-time-machine@0.1.1",
+  "_rev": "3-b9739a0f9f10734ea134c9213a929098",
+  "name": "domo-time-machine",
+  "dist-tags": {
+    "latest": "0.1.1"
+  },
+  "versions": [
+    "0.0.0-stage",
+    "0.1.0",
+    "0.1.1"
+  ],
+  "time": {
+    "created": "2026-10-19T09:20:42.247Z",
+    "modified": "2026-10-20T07:45:12.633Z",
+    "0.0.0-stage": "2026-10-19T09:20:42.247Z",
+    "0.1.0": "2026-10-19T09:22:50.446Z",
+    "0.1.1": "2026-10-20T07:45:12.181Z"
+  },
+  "author": "SHUBHAM MAJI",
+  "license": "MIT",
+  "description": "Offline dataset forensics and deterministic replay for Domo developers",
+  "maintainers": [
+    "shubhammaji1 <shubham.office.0001@gmail.com>"
+  ],
+  "readmeFilename": "README.md",
+  "_contentLength": 16640,
+  "bin": {
+    "domo-time-machine": "dist/cli/index.js"
+  },
+  "dist": {
+    "shasum": "2dfe3a6c77f5ad36d9358d91563e29932c0e322e",
+    "tarball": "https://registry.npmjs.org/domo-time-machine/-/domo-time-machine-0.1.1.tgz",
+    "fileCount": 43,
+    "integrity": "sha512-KzDtHixaKp1BdkGnHld4m/IZoNbkNlUnZMCZtnHGpaW09oKYx1szMUzR8n4v4c746qJjKOaE1IZscad7eMkoOw==",
+    "signatures": [
+      {
+        "sig": "MEUCIQD8eG2S/A6Ki1uiugcykIBfz/uf05VdFcLNXyr8CDbGQwIgeMfA+99ixrAASzzUsNFQPlfmn+gK76nE36jO4cra54A=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEYCIQCZP8dgsLOXKfMBMvGWjU+lvejzBUNNYyYAQ7vLV1pH2wIhAMyQhTxOSP6tIYh4ajDYlz+uBCABBwHGxkrT5ksTmP33"
+      }
+    ],
+    "unpackedSize": 181276
+  },
+  "main": "./dist/index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "private": false,
+  "scripts": {
+    "dev": "tsx src/cli/index.ts",
+    "demo": "tsx scripts/demo.ts",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "build": "node scripts/build.mjs",
+    "clean": "node scripts/clean.mjs",
+    "format": "prettier --write .",
+    "prepack": "npm run build",
+    "test:e2e": "node scripts/user-e2e.mjs",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "typecheck": "tsc --noEmit",
+    "pack:check": "npm pack --dry-run",
+    "format:check": "prettier --check .",
+    "test:package": "node scripts/package-smoke.mjs",
+    "prepublishOnly": "npm run typecheck && npm run lint && npm run format:check && npm test && npm run test:e2e",
+    "test:e2e:published": "node scripts/user-e2e.mjs --published"
+  },
+  "version": "0.1.1",
+  "_npmUser": "shubhammaji1 <shubham.office.0001@gmail.com>",
+  "_npmVersion": "10.9.4",
+  "directories": {},
+  "_nodeVersion": "22.22.0",
+  "dependencies": {
+    "zod": "^3.25.76",
+    "yaml": "^2.8.1",
+    "commander": "^13.1.0",
+    "csv-parse": "^7.0.3",
+    "decimal.js": "^10.6.0"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "tsx": "^4.20.6",
+    "eslint": "^9.37.0",
+    "vitest": "^5.0.5",
+    "prettier": "^3.6.2",
+    "fast-check": "^4.3.0",
+    "typescript": "^5.9.3",
+    "@types/node": "^22.18.0",
+    "typescript-eslint": "^8.46.0"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages-npm-production",
+    "tmp": "tmp/domo-time-machine_0.1.1_1792482312102_0.2792591316432671"
+  }
+}

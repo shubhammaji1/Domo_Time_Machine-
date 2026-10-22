@@ -1,0 +1,103 @@
+{
+  "mode": "local",
+  "package": "domo-time-machine@0.1.1",
+  "node": "v24.22.0",
+  "platform": "win32",
+  "architecture": "x64",
+  "createdAt": "2026-10-20T07:34:56.384Z",
+  "workspace": "D:\\GWC\\Projects\\POCs\\DOMO TIME MACHINE\\.artifacts\\tmp\\real user local Ω SIYuKF",
+  "checks": [
+    {
+      "name": "fresh normal npm installation and executable discovery",
+      "passed": true,
+      "durationMs": 42985
+    },
+    {
+      "name": "offline capture, inspect and monetary validation",
+      "passed": true,
+      "durationMs": 3041
+    },
+    {
+      "name": "record diff, schema history, investigation and text reports",
+      "passed": true,
+      "durationMs": 1466
+    },
+    {
+      "name": "CSV BOM, quoted newlines, Unicode names and string-preserved keys",
+      "passed": true,
+      "durationMs": 682
+    },
+    {
+      "name": "Windows UTF-8 BOM NDJSON capture",
+      "passed": true,
+      "durationMs": 223
+    },
+    {
+      "name": "booking join replay and reviewed capsule portability",
+      "passed": true,
+      "durationMs": 1925
+    },
+    {
+      "name": "regression harness exported to a different directory",
+      "passed": true,
+      "durationMs": 701
+    },
+    {
+      "name": "invalid inputs fail safely and cannot overwrite reports or captures",
+      "passed": true,
+      "durationMs": 1967
+    },
+    {
+      "name": "installed TypeScript declarations compile without ancestor types",
+      "passed": true,
+      "durationMs": 2942
+    },
+    {
+      "name": "exact decimals and strict financial gates",
+      "passed": true
+    },
+    {
+      "name": "typed keys, missing fields, duplicate ambiguity and row-order invariance",
+      "passed": true
+    },
+    {
+      "name": "duplicate destination key mappings are rejected",
+      "passed": true
+    },
+    {
+      "name": "replay assertions accept equivalent decimal spellings",
+      "passed": true
+    },
+    {
+      "name": "invalid numeric cells cannot silently pass replay totals",
+      "passed": true
+    },
+    {
+      "name": "replay preserves input data and is deterministic",
+      "passed": true
+    },
+    {
+      "name": "replay validates limits and cancellation",
+      "passed": true
+    },
+    {
+      "name": "reviewed capsules round trip with integrity verification",
+      "passed": true
+    },
+    {
+      "name": "capsule export rejects undeclared inputs instead of producing an unreplayable capsule",
+      "passed": true
+    },
+    {
+      "name": "capsule inspection validates alias identity, not only alias count",
+      "passed": true
+    },
+    {
+      "name": "package version and executable version stay aligned after a patch bump",
+      "passed": true,
+      "durationMs": 365
+    }
+  ],
+  "passed": 20,
+  "failed": 0
+}

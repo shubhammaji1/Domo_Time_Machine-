@@ -1,0 +1,54 @@
+{
+  "checksum": "9a7544abc8eab55b27cca52e5e3c02aded67b952eda535c5aef318f8356d4b3c",
+  "payload": {
+    "expectedOutputHash": "be2257db3ae7ce7bb55d38bdececc7a2cf8534f336ec82983ae6af389e753565",
+    "inputs": {
+      "bookings": [
+        { "Booking_ID": "BK101", "Currency": "INR", "Fare": "5000" },
+        { "Booking_ID": "BK102", "Currency": "INR", "Fare": "3000" }
+      ],
+      "tickets": [
+        { "Booking_ID": "BK101", "Ticket": "Original" },
+        { "Booking_ID": "BK101", "Ticket": "Reissue" },
+        { "Booking_ID": "BK102", "Ticket": "Original" }
+      ]
+    },
+    "privacy": {
+      "includedColumns": {
+        "bookings": ["Booking_ID", "Currency", "Fare"],
+        "tickets": ["Booking_ID", "Ticket"]
+      },
+      "mode": "synthetic",
+      "reviewed": true
+    },
+    "scenario": {
+      "assertions": [
+        { "aggregation": "sum", "column": "Fare", "equals": "8000", "table": "joined" },
+        { "aggregation": "count", "equals": "2", "table": "joined" },
+        { "aggregation": "sum", "column": "TicketCount", "equals": "3", "table": "joined" }
+      ],
+      "inputs": { "bookings": "bookings", "tickets": "tickets" },
+      "name": "booking-grain-candidate",
+      "output": "joined",
+      "steps": [
+        {
+          "groupBy": ["Booking_ID"],
+          "id": "ticket_counts",
+          "input": "tickets",
+          "measures": [{ "as": "TicketCount", "operation": "count" }],
+          "operation": "aggregate"
+        },
+        {
+          "id": "joined",
+          "left": "bookings",
+          "on": [{ "left": "Booking_ID", "right": "Booking_ID" }],
+          "operation": "left_join",
+          "right": "ticket_counts"
+        }
+      ],
+      "version": 1
+    },
+    "schemaVersion": 1,
+    "softwareVersion": "0.1.0"
+  }
+}

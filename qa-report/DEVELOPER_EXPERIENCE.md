@@ -1,0 +1,18 @@
+# Independent developer workflows
+
+Verified 2026-10-20T08:35:32.594Z; published domo-time-machine@0.1.1; Windows 10.0.26200, x64.
+
+The following supported workflows ran against installed packages; exact commands/output are in commands JSON and E2E reports. Expected results come from synthetic fixture values, not the implementation under test.
+
+| Workflow                        | Fixture / command sequence                                                                  | Independent expectation                                                                          | Negative / failure case                                                             |
+| ------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| Historical row reconciliation   | v0/v1 JSON; capture, inspect, diff --key id                                                 | Alice=100→150; Bob removed; Diana added; Charlie unchanged: 1/1/1/1                              | Missing key fails; duplicate capture preserves old state                            |
+| Financial CI gate               | BOM CSV 0.10+0.20 INR; capture; validate --expected 0.30                                    | Exact total 0.3 passes; 9200.55 vs 9200.30 differs 0.25                                          | Mismatched total exit 1; mixed/missing/invalid currency/amounts fail                |
+| Duplicate-join investigation    | Bundled bookings/tickets; replay faulty/candidate; investigate Fare                         | Faulty join 13000 vs booking total 8000; BK101 contributes +5000; candidate counts three tickets | Invalid numeric aggregate fails; ambiguous duplicate evidence never invents pairing |
+| Schema/history review           | Five captures; schema history/compare; original retrieval                                   | Added/removed/type/nullability/optionality recorded; original bytes exact                        | Corrupt metadata fails validation; valid UUID evidence remains accessible           |
+| Portable incident regression    | Reviewed synthetic capsule; copy fresh directory; replay; export regression to reports/     | Same expected output hash; paths with spaces/Unicode/#/% work                                    | Unreviewed creation previews only; tampered/extra/wrong alias capsules reject       |
+| Offline automation and recovery | Independent install, network preload, concurrent writers, killed pre-commit capture, doctor | No network required for dataset work; old state readable; partial state uncommitted              | Stale name stays locked until verified manual recovery; ENOSPC preserves history    |
+
+No Domo authentication is needed. The package purpose and bounded offline scope are clear; however published release text and example paths fail a first-time copy/paste experience. Local README now separates installed-user commands from source development scripts. Errors are actionable without echoing raw sensitive input. No invented verbose/quiet/json flags, server URL, Docker, browser or API credential setup is required.
+
+A minimal user path is: create a directory; npm init -y; npm install domo-time-machine; npx domo-time-machine --help; capture node_modules/domo-time-machine/examples/booking-reconciliation/bookings.csv --name bookings; validate bookings --column Fare --currency INR --expected 8000 (prefix CLI operations with npx domo-time-machine). Unsupported native DataFlow replay and production rollback are not counted as successful workflows.

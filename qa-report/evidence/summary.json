@@ -1,0 +1,192 @@
+{
+  "package": "domo-time-machine@0.1.1",
+  "createdAt": "2026-10-20T08:35:32.594Z",
+  "totals": {
+    "passed": 140,
+    "failed": 2,
+    "blocked": 3,
+    "skipped": 4,
+    "unverified": 5,
+    "note": "Counts combine Vitest cases and named black-box check groups; commands, property iterations and benchmark repetitions are not counted again. Blocked/skipped/unverified are planned validation groups, not fabricated Vitest cases."
+  },
+  "coverage": {
+    "lines": {
+      "total": 673,
+      "covered": 560,
+      "skipped": 0,
+      "pct": 83.2
+    },
+    "statements": {
+      "total": 733,
+      "covered": 605,
+      "skipped": 0,
+      "pct": 82.53
+    },
+    "functions": {
+      "total": 137,
+      "covered": 111,
+      "skipped": 0,
+      "pct": 81.02
+    },
+    "branches": {
+      "total": 450,
+      "covered": 338,
+      "skipped": 0,
+      "pct": 75.11
+    },
+    "branchesTrue": {
+      "total": 0,
+      "covered": 0,
+      "skipped": 0,
+      "pct": 100
+    }
+  },
+  "verdict": "READY FOR CONTROLLED BETA",
+  "score": 7.5,
+  "confidence": "Moderate: strong local functional evidence, limited platform/tenant/security independence evidence.",
+  "criticalBugs": 0,
+  "highBugs": 0,
+  "openPublishedBugs": 2,
+  "domoVerified": false,
+  "securityCompletion": {
+    "scanId": "ff65c68f-7c2a-47b4-9549-7ab1ad03c423",
+    "checkedAt": "2026-10-22T05:54:18.212977Z",
+    "status": "COMPLETE — PARTIAL REVIEW COVERAGE",
+    "detail": "The saved scan was successfully finalized on continuation. No confirmed reportable vulnerabilities were recorded within partial review coverage. The earlier completion subprocess failure did not provide a diagnostic cause. The plugin retained original-snapshot results and warnings about temporary target unavailability and directory changes; this is not certification of every current file.",
+    "warnings": [
+      "The scan target became unavailable while the scan was running; results were saved for the original revision or snapshot.",
+      "Directory contents changed while the scan was running; results were saved for the original snapshot."
+    ],
+    "artifacts": {
+      "coverage": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\coverage.json",
+      "findings": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\findings.json",
+      "manifest": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\scan-manifest.json",
+      "markdownReport": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\report.md",
+      "sarifReport": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\exports\\results.sarif",
+      "threatModel": "C:\\Users\\ShubhamMaji\\.codex\\state\\plugins\\codex-security\\scans\\DOMO-TIME-MACHINE\\unversioned_20261020T075627Z_5t3toxnf\\threatmodel.md"
+    },
+    "usage": {
+      "cacheWriteInputTokens": 0,
+      "cachedInputTokens": 8232704,
+      "coverage": "complete",
+      "inputTokens": 8733328,
+      "outputTokens": 46981,
+      "reasoningOutputTokens": 10680,
+      "source": "codex_rollout",
+      "threadCount": 1,
+      "totalTokens": 8780309
+    }
+  },
+  "unsupported": [
+    {
+      "id": "B-DOMO",
+      "status": "BLOCKED",
+      "reason": "REAL DOMO VALIDATION NOT PERFORMED; no implemented transport or authorized tenant."
+    },
+    {
+      "id": "B-LINUX",
+      "status": "BLOCKED",
+      "reason": "Linux execution environment unavailable; CI definition is not a completed run."
+    },
+    {
+      "id": "B-MAC",
+      "status": "BLOCKED",
+      "reason": "macOS execution environment unavailable."
+    },
+    {
+      "id": "S-NODE20",
+      "status": "SKIPPED",
+      "reason": "Outside package engines >=22.13.0."
+    },
+    {
+      "id": "S-1M",
+      "status": "SKIPPED",
+      "reason": "1,000,000 rows exceed the explicit 100,000-row limit."
+    },
+    {
+      "id": "S-WRITES",
+      "status": "SKIPPED",
+      "reason": "Production rollback/restore writes are unsupported and prohibited."
+    },
+    {
+      "id": "S-AI",
+      "status": "SKIPPED",
+      "reason": "Optional AI is future scope, not a core dependency."
+    },
+    {
+      "id": "U-CI",
+      "status": "UNVERIFIED",
+      "reason": "New GitHub Actions jobs were not run remotely."
+    },
+    {
+      "id": "U-PROVENANCE",
+      "status": "UNVERIFIED",
+      "reason": "Registry signatures exist; signature/provenance cryptographic verification not performed; repository field absent."
+    },
+    {
+      "id": "U-POWER",
+      "status": "UNVERIFIED",
+      "reason": "No physical power-loss, OS full disk, ACL denial or hostile local race testing; ENOSPC was injected before rename."
+    },
+    {
+      "id": "U-LOAD",
+      "status": "UNVERIFIED",
+      "reason": "No sustained soak, million-file history, OS cold-cache or isolated peak-memory benchmark."
+    },
+    {
+      "id": "U-INDEPENDENT",
+      "status": "UNVERIFIED",
+      "reason": "Security review was sequential; no independent second reviewer or exhaustive dependency-source audit."
+    }
+  ],
+  "scorecard": [
+    [
+      "Core functionality",
+      25,
+      8,
+      "Installed workflows, independent expected values, financial gates pass."
+    ],
+    [
+      "Historical integrity",
+      20,
+      8,
+      "Five versions, exact originals, crash and collision checks pass; power-loss unverified."
+    ],
+    [
+      "Security",
+      15,
+      7,
+      "Input/control tests and advisory audits pass; partial single-reviewer source audit."
+    ],
+    [
+      "CLI / SDK",
+      10,
+      8,
+      "ESM, strict TS, CJS dynamic import and installed CLI pass."
+    ],
+    [
+      "Domo integration",
+      10,
+      null,
+      "Not implemented; excluded from offline-package score, live validation BLOCKED."
+    ],
+    [
+      "Performance",
+      10,
+      7,
+      "Three samples per supported size; no production SLA or soak evidence."
+    ],
+    [
+      "Documentation",
+      5,
+      5,
+      "Two published README defects; local fixes verified separately."
+    ],
+    [
+      "Packaging / CI",
+      5,
+      7,
+      "Real tarball consumers and hashes pass; remote matrix and provenance unverified."
+    ]
+  ]
+}

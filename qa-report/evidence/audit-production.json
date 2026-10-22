@@ -1,0 +1,15 @@
+{
+  "name": "audit-production",
+  "command": [
+    "node",
+    "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "audit",
+    "--omit=dev",
+    "--json"
+  ],
+  "node": "v22.22.0",
+  "exitCode": 0,
+  "milliseconds": 7376,
+  "stdout": "{\n  \"auditReportVersion\": 2,\n  \"vulnerabilities\": {},\n  \"metadata\": {\n    \"vulnerabilities\": {\n      \"info\": 0,\n      \"low\": 0,\n      \"moderate\": 0,\n      \"high\": 0,\n      \"critical\": 0,\n      \"total\": 0\n    },\n    \"dependencies\": {\n      \"prod\": 6,\n      \"dev\": 232,\n      \"optional\": 79,\n      \"peer\": 58,\n      \"peerOptional\": 0,\n      \"total\": 237\n    }\n  }\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,22 @@
+version: 1
+name: faulty-join
+inputs:
+  bookings: bookings
+  tickets: tickets
+steps:
+  - id: joined
+    operation: left_join
+    left: bookings
+    right: tickets
+    on:
+      - left: Booking_ID
+        right: Booking_ID
+output: joined
+assertions:
+  - table: joined
+    column: Fare
+    aggregation: sum
+    equals: '13000'
+  - table: joined
+    aggregation: count
+    equals: '3'

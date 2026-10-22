@@ -1,0 +1,74 @@
+{
+  "name": "domo-time-machine",
+  "version": "0.1.1",
+  "private": false,
+  "type": "module",
+  "description": "Offline dataset forensics and deterministic replay for Domo developers",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "bin": {
+    "domo-time-machine": "dist/cli/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "docs",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
+    "examples"
+  ],
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "dev": "tsx src/cli/index.ts",
+    "demo": "tsx scripts/demo.ts",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "pack:check": "npm pack --dry-run",
+    "test:package": "node scripts/package-smoke.mjs",
+    "test:e2e": "node scripts/user-e2e.mjs",
+    "test:e2e:published": "node scripts/user-e2e.mjs --published",
+    "prepack": "npm run build",
+    "prepublishOnly": "npm run typecheck && npm run lint && npm run format:check && npm test && npm run test:e2e",
+    "test:coverage": "vitest run --coverage",
+    "qa:audit": "node scripts/qa-audit.mjs",
+    "qa:checks": "node scripts/qa-checks.mjs",
+    "qa:artifacts": "node scripts/qa-artifacts.mjs",
+    "qa:report": "node scripts/qa-report.mjs"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "csv-parse": "^7.0.3",
+    "decimal.js": "^10.6.0",
+    "yaml": "^2.8.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@vitest/coverage-v8": "5.0.5",
+    "eslint": "^9.37.0",
+    "fast-check": "^4.3.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0",
+    "vitest": "^5.0.5"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "SHUBHAM MAJI"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "package-smoke",
+  "command": [
+    "node",
+    "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "run",
+    "test:package"
+  ],
+  "node": "v22.22.0",
+  "exitCode": 0,
+  "milliseconds": 45677,
+  "stdout": "\n> domo-time-machine@0.1.1 test:package\n> node scripts/package-smoke.mjs\n\n{\"tarball\":\".artifacts\\\\packages\\\\domo-time-machine-0.1.1.tgz\",\"files\":43,\"unpackedBytes\":183605,\"cleanInstall\":true,\"npxStyleInvocation\":true,\"typescriptConsumer\":true,\"offlineSdkAndCli\":true}\n",
+  "stderr": ""
+}

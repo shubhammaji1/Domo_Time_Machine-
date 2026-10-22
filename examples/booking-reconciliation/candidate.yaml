@@ -1,0 +1,33 @@
+version: 1
+name: booking-grain-candidate
+inputs:
+  bookings: bookings
+  tickets: tickets
+steps:
+  - id: ticket_counts
+    operation: aggregate
+    input: tickets
+    groupBy: [Booking_ID]
+    measures:
+      - operation: count
+        as: TicketCount
+  - id: joined
+    operation: left_join
+    left: bookings
+    right: ticket_counts
+    on:
+      - left: Booking_ID
+        right: Booking_ID
+output: joined
+assertions:
+  - table: joined
+    column: Fare
+    aggregation: sum
+    equals: '8000'
+  - table: joined
+    aggregation: count
+    equals: '2'
+  - table: joined
+    column: TicketCount
+    aggregation: sum
+    equals: '3'

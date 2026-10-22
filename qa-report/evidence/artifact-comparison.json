@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-10-22T05:52:50.324Z",
+  "publishedVersion": "0.1.1",
+  "localVersion": "0.1.1",
+  "publishedIntegrity": "sha512-KzDtHixaKp1BdkGnHld4m/IZoNbkNlUnZMCZtnHGpaW09oKYx1szMUzR8n4v4c746qJjKOaE1IZscad7eMkoOw==",
+  "localIntegrity": "sha512-0J18kqr+mJTjz9Mk4yN73dV388MXbFSDdY+2/DLBYwFuZbGr51ZksGHJzL2g3nh8TTqkgUX/sJD7+DBnD0A8tQ==",
+  "publishedFileCount": 43,
+  "localFileCount": 43,
+  "compiledFilesVerified": 28,
+  "runtimeDifferences": [],
+  "differences": [
+    {
+      "name": "package.json",
+      "publishedHash": "d84bee1f51563c5adcbbbab03d47ea6f12f81ab86b59f84fce5910598c897a5f",
+      "localHash": "a4b6108aeb27821afa86e5bd3313b64bf47d81e09229b025eeddf80b28bb8af6"
+    },
+    {
+      "name": "docs/API.md",
+      "publishedHash": "36e86936dadf9937dca3778a75512614e796b8af60c4c158dfdc8d0dfac5eb90",
+      "localHash": "328c343d9f13dfc4889914f64a61884b3d55ea9e46c56486f71dbe3de799940c"
+    },
+    {
+      "name": "CHANGELOG.md",
+      "publishedHash": "30879e1ff0444a34c7ab1a78b7e25e44ee30b93374300d03bd3cd3fab980b922",
+      "localHash": "7a1d435b96538e05e6ee4f78171fa233f98e2a98bba7cbba2e837ae9fa2da2c1"
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "publishedHash": "29aea80c33b292d1b246839c85637b2fb979efb33de43ade736f5d762e1ae585",
+      "localHash": "e66ee759d5d7666936f12dcf24d071cd8ab6d2c48f0889a30590130176435888"
+    },
+    {
+      "name": "docs/END_TO_END_REPORT.md",
+      "publishedHash": "6babe9cfe07b37876e5d6add529487532920297bc4e0a0cf54a67694aac70dff",
+      "localHash": "8b741173509f75417e2d4d21879c8a5b42f99a79f6c67652fd96613ecdd0578c"
+    },
+    {
+      "name": "README.md",
+      "publishedHash": "cf2ea520ee54fae9a9c2b6817da713455e435040341a98c7f01b9967b8b92d38",
+      "localHash": "5e1ee308ac9ae20438734ee8b40761822f5a7ccf3b8c588566d3849188722468"
+    }
+  ],
+  "sourceHashes": {
+    "src/adapters/domo.ts": "c9ea1f449c2c3d33eb8b5888932aa4832c11dd22770308f4021f8a202fe6a836",
+    "src/capsules/index.ts": "6805a0e13864c8b8215e649232efa4ee0ea35176baa132e8680e38ac2caf5562",
+    "src/cli/index.ts": "10a1ae8cf417d9f402e54291d718754cf2f0695b849e27a53ba7fe7c811106a2",
+    "src/cli/reporters.ts": "484a4e2e878bf503ad8ea93488a47730a3b8ef3e13bee910b30b90708d2ea104",
+    "src/core/model.ts": "f4db952f3cd51b47411ba70336d233b26c2e31bfdb1e4dc16c95cc9ce6a1a6d7",
+    "src/diff/index.ts": "9e63eb5c4915889be72e63250e996f26df87f3f2a7223c0498c7693bb7d4c94d",
+    "src/index.ts": "6bf0830dfaf03817ef63bce3ee7c91595f689eee8c8191bed99260164df6552a",
+    "src/investigation/index.ts": "a8bfdd79adb9ac9ab888daefed380c3ef65303c1d8bb8d936b830617e28b1537",
+    "src/metrics/financial.ts": "b9dd9961fab37ed20d30651ebe22a82e51e88afa0da4aa35d556884f45635110",
+    "src/metrics/index.ts": "8fa14f528ae8d3131c45a58e55b13e303304827b9e13425d74aa392d598dd900",
+    "src/replay/index.ts": "070bc2f34e6454cb4908408c94d2408667380c6dff75dbcc420308208eb6a1e8",
+    "src/schema/index.ts": "1867e1930c225bc30f0919a9982a9bc12c5b61b4ecba8e7c7ac4a4a927a86012",
+    "src/snapshots/import.ts": "de9638cd1c65ac54b85d130788ea2f727b59783fe4802c63e567d07d0a3cef71",
+    "src/storage/workspace.ts": "050bf141ab26bf6be2e147926f15d20046cc09455930241b40470370261de295"
+  },
+  "publishedCliMode": "000644 ",
+  "localCliMode": "000644 ",
+  "note": "Compressed archives differ because development scripts/dependencies and documentation changed locally. All runtime JS and declarations match the published release byte for byte. Registry signatures present; signature and provenance cryptographic verification not performed."
+}

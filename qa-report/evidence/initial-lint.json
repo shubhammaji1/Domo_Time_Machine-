@@ -1,0 +1,14 @@
+{
+  "name": "lint",
+  "command": [
+    "node",
+    "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "run",
+    "lint"
+  ],
+  "node": "v22.22.0",
+  "exitCode": 1,
+  "milliseconds": 68184,
+  "stdout": "\n> domo-time-machine@0.1.1 lint\n> eslint .\n\n\nD:\\GWC\\Projects\\POCs\\DOMO TIME MACHINE\\scripts\\qa-audit.mjs\n  134:52  error  'digest' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars\n  137:7   error  'json' is assigned a value but never used. Allowed unused vars must match /^_/u    @typescript-eslint/no-unused-vars\n\n✖ 2 problems (2 errors, 0 warnings)\n\n",
+  "stderr": ""
+}

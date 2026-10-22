@@ -1,0 +1,5 @@
+[
+  { "Booking_ID": "BK101", "Fare": "5000.10", "Currency": "INR", "Status": "confirmed" },
+  { "Booking_ID": "BK102", "Fare": "3000.20", "Currency": "INR", "Status": "confirmed" },
+  { "Booking_ID": "BK103", "Fare": "1200.00", "Currency": "INR", "Status": "confirmed" }
+]

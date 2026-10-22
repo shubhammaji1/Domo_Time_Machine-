@@ -1,0 +1,229 @@
+{
+  "id": "domo-time-machine@0.1.1",
+  "name": "domo-time-machine",
+  "version": "0.1.1",
+  "size": 42311,
+  "unpackedSize": 183605,
+  "shasum": "79928717c6942710f4ca1f83e40cb16ea509e19b",
+  "integrity": "sha512-0J18kqr+mJTjz9Mk4yN73dV388MXbFSDdY+2/DLBYwFuZbGr51ZksGHJzL2g3nh8TTqkgUX/sJD7+DBnD0A8tQ==",
+  "filename": "domo-time-machine-0.1.1.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 1848,
+      "mode": 420
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 2336,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 1087,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 11056,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2504,
+      "mode": 420
+    },
+    {
+      "path": "dist/adapters/domo.d.ts",
+      "size": 675,
+      "mode": 420
+    },
+    {
+      "path": "dist/adapters/domo.js",
+      "size": 11,
+      "mode": 420
+    },
+    {
+      "path": "dist/capsules/index.d.ts",
+      "size": 33978,
+      "mode": 420
+    },
+    {
+      "path": "dist/capsules/index.js",
+      "size": 4950,
+      "mode": 420
+    },
+    {
+      "path": "dist/cli/index.d.ts",
+      "size": 31,
+      "mode": 420
+    },
+    {
+      "path": "dist/cli/index.js",
+      "size": 9148,
+      "mode": 420
+    },
+    {
+      "path": "dist/cli/reporters.d.ts",
+      "size": 78,
+      "mode": 420
+    },
+    {
+      "path": "dist/cli/reporters.js",
+      "size": 1186,
+      "mode": 420
+    },
+    {
+      "path": "dist/core/model.d.ts",
+      "size": 2377,
+      "mode": 420
+    },
+    {
+      "path": "dist/core/model.js",
+      "size": 3415,
+      "mode": 420
+    },
+    {
+      "path": "dist/diff/index.d.ts",
+      "size": 1111,
+      "mode": 420
+    },
+    {
+      "path": "dist/diff/index.js",
+      "size": 4545,
+      "mode": 420
+    },
+    {
+      "path": "dist/index.d.ts",
+      "size": 438,
+      "mode": 420
+    },
+    {
+      "path": "dist/index.js",
+      "size": 331,
+      "mode": 420
+    },
+    {
+      "path": "dist/investigation/index.d.ts",
+      "size": 3626,
+      "mode": 420
+    },
+    {
+      "path": "dist/investigation/index.js",
+      "size": 3093,
+      "mode": 420
+    },
+    {
+      "path": "dist/metrics/financial.d.ts",
+      "size": 1814,
+      "mode": 420
+    },
+    {
+      "path": "dist/metrics/financial.js",
+      "size": 1918,
+      "mode": 420
+    },
+    {
+      "path": "dist/metrics/index.d.ts",
+      "size": 2055,
+      "mode": 420
+    },
+    {
+      "path": "dist/metrics/index.js",
+      "size": 4571,
+      "mode": 420
+    },
+    {
+      "path": "dist/replay/index.d.ts",
+      "size": 21218,
+      "mode": 420
+    },
+    {
+      "path": "dist/replay/index.js",
+      "size": 15118,
+      "mode": 420
+    },
+    {
+      "path": "dist/schema/index.d.ts",
+      "size": 695,
+      "mode": 420
+    },
+    {
+      "path": "dist/schema/index.js",
+      "size": 1543,
+      "mode": 420
+    },
+    {
+      "path": "dist/snapshots/import.d.ts",
+      "size": 234,
+      "mode": 420
+    },
+    {
+      "path": "dist/snapshots/import.js",
+      "size": 2606,
+      "mode": 420
+    },
+    {
+      "path": "dist/storage/workspace.d.ts",
+      "size": 636,
+      "mode": 420
+    },
+    {
+      "path": "dist/storage/workspace.js",
+      "size": 9322,
+      "mode": 420
+    },
+    {
+      "path": "docs/API.md",
+      "size": 6100,
+      "mode": 420
+    },
+    {
+      "path": "docs/DEVELOPMENT_REPORT.md",
+      "size": 9031,
+      "mode": 420
+    },
+    {
+      "path": "docs/DOMO_INTEGRATION.md",
+      "size": 2937,
+      "mode": 420
+    },
+    {
+      "path": "docs/END_TO_END_REPORT.md",
+      "size": 7473,
+      "mode": 420
+    },
+    {
+      "path": "docs/SEMANTICS.md",
+      "size": 5255,
+      "mode": 420
+    },
+    {
+      "path": "examples/booking-reconciliation/bookings.csv",
+      "size": 55,
+      "mode": 420
+    },
+    {
+      "path": "examples/booking-reconciliation/candidate.yaml",
+      "size": 632,
+      "mode": 420
+    },
+    {
+      "path": "examples/booking-reconciliation/faulty.yaml",
+      "size": 381,
+      "mode": 420
+    },
+    {
+      "path": "examples/booking-reconciliation/tickets.ndjson",
+      "size": 128,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 2059,
+      "mode": 420
+    }
+  ],
+  "entryCount": 43,
+  "bundled": []
+}

@@ -1,0 +1,823 @@
+{
+  "createdAt": "2026-10-20T08:35:32.594Z",
+  "package": "domo-time-machine@0.1.1",
+  "registryIntegrity": "sha512-KzDtHixaKp1BdkGnHld4m/IZoNbkNlUnZMCZtnHGpaW09oKYx1szMUzR8n4v4c746qJjKOaE1IZscad7eMkoOw==",
+  "node": "v22.22.0",
+  "platform": "win32",
+  "osRelease": "10.0.26200",
+  "cpu": "Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz",
+  "architecture": "x64",
+  "independentDirectory": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+  "checks": [
+    {
+      "name": "default latest installation, exact version, uninstall and reinstall from registry tarball",
+      "passed": true,
+      "milliseconds": 67550.0996
+    },
+    {
+      "name": "every discovered command has help; malformed CLI exits 2 with diagnostics",
+      "passed": true,
+      "milliseconds": 30392.055699999997
+    },
+    {
+      "name": "five versions preserve the independent Alice/Bob/Charlie oracle and original bytes",
+      "passed": true,
+      "milliseconds": 682.1868000000104
+    },
+    {
+      "name": "four independent writer processes enforce unique names and preserve readers",
+      "passed": true,
+      "milliseconds": 1084.6267999999982
+    },
+    {
+      "name": "killed pre-commit writer leaves no committed partial snapshot; doctor and manual recovery work",
+      "passed": true,
+      "milliseconds": 1201.854999999996
+    },
+    {
+      "name": "injected disk-full commit failure and UUID collision cannot overwrite historical data",
+      "passed": true,
+      "milliseconds": 1358.5864000000001
+    },
+    {
+      "name": "corrupt metadata is diagnosed and unrelated snapshots remain readable by UUID",
+      "passed": true,
+      "milliseconds": 311.20849999999336
+    },
+    {
+      "name": "malicious input, oversize source and failed capture preserve safe snapshots",
+      "passed": true,
+      "milliseconds": 564.9440999999933
+    },
+    {
+      "name": "installed runtime exports, package entrypoints and CJS dynamic import are usable",
+      "passed": true,
+      "milliseconds": 597.4238000000041
+    },
+    {
+      "name": "remaining documented CLI options produce parseable reports and enforce limits",
+      "passed": true,
+      "milliseconds": 12455.481199999995
+    },
+    {
+      "name": "published README release status matches the verified npm release",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Published README still calls the installed release a patch candidate\n    at file:///D:/GWC/Projects/POCs/DOMO%20TIME%20MACHINE/scripts/qa-audit.mjs:535:10\n    at check (file:///D:/GWC/Projects/POCs/DOMO%20TIME%20MACHINE/scripts/qa-audit.mjs:64:11)\n    at file:///D:/GWC/Projects/POCs/DOMO%20TIME%20MACHINE/scripts/qa-audit.mjs:534:7",
+      "milliseconds": 1.639999999999418
+    },
+    {
+      "name": "published README booking fixture command works verbatim after npm install",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: capture examples/booking-reconciliation/bookings.csv --name readme-bookings: Operation failed: \"File or snapshot not found. Check the input path and capture name.\"\n\n\n2 !== 0\n\n    at execute (file:///D:/GWC/Projects/POCs/DOMO%20TIME%20MACHINE/scripts/qa-audit.mjs:58:12)\n    at command (file:///D:/GWC/Projects/POCs/DOMO%20TIME%20MACHINE/scripts/qa-audit.mjs:137:41)\n    at file:///D:/GWC/Projects/POCs/DOMO%20TIME%20MACHINE/scripts/qa-audit.mjs:541:3\n    at check (file:///D:/GWC/Projects/POCs/DOMO%20TIME%20MACHINE/scripts/qa-audit.mjs:64:11)\n    at file:///D:/GWC/Projects/POCs/DOMO%20TIME%20MACHINE/scripts/qa-audit.mjs:540:7",
+      "milliseconds": 1160.9492000000027
+    },
+    {
+      "name": "performance captures, warm reads, changed keyed diffs and replay scale to supported row limit",
+      "passed": true,
+      "milliseconds": 24074.3091
+    }
+  ],
+  "passed": 11,
+  "failed": 2,
+  "observations": {
+    "history": {
+      "captured": [
+        {
+          "name": "v0",
+          "datasetName": "history",
+          "keyColumns": [],
+          "dataCompleteness": "complete",
+          "sourceUpdatedAt": "2026-01-01T00:00:00Z",
+          "schemaVersion": 1,
+          "id": "b9162f4e-fd29-49a4-bc81-befd052ccece",
+          "capturedAt": "2026-10-20T08:34:49.135Z",
+          "format": "json",
+          "rowCount": 3,
+          "columnCount": 2,
+          "schemaHash": "46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca",
+          "contentHash": "b95cf5023e8edc3969ffc9aad2f746785ca531ef8a8f965786adc57cc43730cf",
+          "originalHash": "0ee1f94ec8820ee7366daba6eb39765eb4e632a58ef67a3b9c57936522df0568",
+          "sourceType": "local",
+          "schema": [
+            {
+              "name": "amount",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            },
+            {
+              "name": "id",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            }
+          ],
+          "canonicalization": "dtm-v1"
+        },
+        {
+          "name": "v1",
+          "datasetName": "history",
+          "keyColumns": [],
+          "dataCompleteness": "complete",
+          "sourceUpdatedAt": "2026-01-02T00:00:00Z",
+          "schemaVersion": 1,
+          "id": "cf06dfc3-b877-40ba-94df-bd061d7d7e01",
+          "capturedAt": "2026-10-20T08:34:49.198Z",
+          "format": "json",
+          "rowCount": 3,
+          "columnCount": 2,
+          "schemaHash": "46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca",
+          "contentHash": "3e04515247ac0e37678f285ff38cd9fbe3ebbfac34cf5acb15f4c23b87cb5456",
+          "originalHash": "fd5cdb3aa0bb046fec8ea1e7f00804538f3b93d1d8a7eb525e258bfd7ba50f05",
+          "sourceType": "local",
+          "schema": [
+            {
+              "name": "amount",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            },
+            {
+              "name": "id",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            }
+          ],
+          "canonicalization": "dtm-v1"
+        },
+        {
+          "name": "v2",
+          "datasetName": "history",
+          "keyColumns": [],
+          "dataCompleteness": "complete",
+          "sourceUpdatedAt": "2026-01-01T00:00:00Z",
+          "schemaVersion": 1,
+          "id": "37f5990f-9ec1-4922-b62b-62eb309a41fd",
+          "capturedAt": "2026-10-20T08:34:49.304Z",
+          "format": "json",
+          "rowCount": 2,
+          "columnCount": 3,
+          "schemaHash": "77a667a2e4dbdb3f0f73ea49772a9f2be136c430683d14fd856bbcd27c816dbb",
+          "contentHash": "43d517030bed11964a52c8374092bca0ca36537e75aad4b2851d11eb4c517ce8",
+          "originalHash": "5fb69dde400b7300da85f58f8a1d2ce2537036a5a08403ce43ce5aa4e3d08d83",
+          "sourceType": "local",
+          "schema": [
+            {
+              "name": "amount",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            },
+            {
+              "name": "id",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            },
+            {
+              "name": "status",
+              "types": [
+                "string"
+              ],
+              "nullable": true,
+              "optional": false
+            }
+          ],
+          "canonicalization": "dtm-v1"
+        },
+        {
+          "name": "v3",
+          "datasetName": "history",
+          "keyColumns": [],
+          "dataCompleteness": "complete",
+          "sourceUpdatedAt": "2026-01-02T00:00:00Z",
+          "schemaVersion": 1,
+          "id": "263f4f1f-5bc3-4148-9596-42607f75a170",
+          "capturedAt": "2026-10-20T08:34:49.363Z",
+          "format": "json",
+          "rowCount": 2,
+          "columnCount": 4,
+          "schemaHash": "14aa4587134c28fc152b39a9670bb05bc8c99d84651145d7b8ba27e78e097602",
+          "contentHash": "476f1e5806e68f74a7f50fafe44cc75d5932b9d6cf9514fc5f7a0fd1510e1d37",
+          "originalHash": "fac0a54dedbc7c1de903b8c90796c92210b3824b902c2d554d334df8f558cd60",
+          "sourceType": "local",
+          "schema": [
+            {
+              "name": "active",
+              "types": [
+                "boolean"
+              ],
+              "nullable": false,
+              "optional": true
+            },
+            {
+              "name": "amount",
+              "types": [
+                "number",
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            },
+            {
+              "name": "date",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": true
+            },
+            {
+              "name": "id",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            }
+          ],
+          "canonicalization": "dtm-v1"
+        },
+        {
+          "name": "v4",
+          "datasetName": "history",
+          "keyColumns": [],
+          "dataCompleteness": "complete",
+          "sourceUpdatedAt": "2026-01-01T00:00:00Z",
+          "schemaVersion": 1,
+          "id": "7e30356c-204f-4a8f-8215-d37260ef6131",
+          "capturedAt": "2026-10-20T08:34:49.430Z",
+          "format": "json",
+          "rowCount": 2,
+          "columnCount": 4,
+          "schemaHash": "14aa4587134c28fc152b39a9670bb05bc8c99d84651145d7b8ba27e78e097602",
+          "contentHash": "6338df217e78d49cf6e35b8f52a57db105046cc825432a03ca3daaa342da6ad2",
+          "originalHash": "648b9fd750ebbb062ec304d949275b087c2991e865e6cb7fec6a806d4ac361fe",
+          "sourceType": "local",
+          "schema": [
+            {
+              "name": "active",
+              "types": [
+                "boolean"
+              ],
+              "nullable": false,
+              "optional": true
+            },
+            {
+              "name": "amount",
+              "types": [
+                "number",
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            },
+            {
+              "name": "date",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": true
+            },
+            {
+              "name": "id",
+              "types": [
+                "string"
+              ],
+              "nullable": false,
+              "optional": false
+            }
+          ],
+          "canonicalization": "dtm-v1"
+        }
+      ],
+      "firstDiff": {
+        "schemaVersion": 1,
+        "beforeSnapshotId": "b9162f4e-fd29-49a4-bc81-befd052ccece",
+        "afterSnapshotId": "cf06dfc3-b877-40ba-94df-bd061d7d7e01",
+        "beforeRows": 3,
+        "afterRows": 3,
+        "added": 1,
+        "removed": 1,
+        "updated": 1,
+        "unchanged": 1,
+        "ambiguousBefore": 0,
+        "ambiguousAfter": 0,
+        "duplicateKeyGroups": 0,
+        "duplicates": [],
+        "schemaChanges": [],
+        "warnings": [],
+        "comparisonComplete": true,
+        "status": "complete",
+        "matching": {
+          "keys": [
+            "id"
+          ],
+          "afterKeys": [
+            "id"
+          ]
+        },
+        "evidence": [
+          {
+            "kind": "updated",
+            "key": "[[\"value\",\"Alice\"]]",
+            "before": [
+              {
+                "row": 0,
+                "value": {
+                  "amount": "100",
+                  "id": "Alice"
+                }
+              }
+            ],
+            "after": [
+              {
+                "row": 0,
+                "value": {
+                  "amount": "150",
+                  "id": "Alice"
+                }
+              }
+            ],
+            "changedColumns": [
+              "amount"
+            ]
+          },
+          {
+            "kind": "removed",
+            "key": "[[\"value\",\"Bob\"]]",
+            "before": [
+              {
+                "row": 1,
+                "value": {
+                  "amount": "200",
+                  "id": "Bob"
+                }
+              }
+            ],
+            "after": [],
+            "changedColumns": []
+          },
+          {
+            "kind": "added",
+            "key": "[[\"value\",\"Diana\"]]",
+            "before": [],
+            "after": [
+              {
+                "row": 2,
+                "value": {
+                  "amount": "400",
+                  "id": "Diana"
+                }
+              }
+            ],
+            "changedColumns": []
+          }
+        ],
+        "evidenceHash": "be118c1bd1bb0733fb3bedb6767a3bbb2ce104fec9e28ad389be852a232bbb58"
+      }
+    },
+    "concurrency": [
+      {
+        "code": 0,
+        "signal": null,
+        "stdout": "{\"name\":\"same\",\"datasetName\":\"local\",\"keyColumns\":[],\"dataCompleteness\":\"unknown\",\"schemaVersion\":1,\"id\":\"28e8e2c9-fc11-4280-a8df-e43632cc6380\",\"capturedAt\":\"2026-10-20T08:34:50.440Z\",\"format\":\"json\",\"rowCount\":1,\"columnCount\":1,\"schemaHash\":\"73a4d068ad8479d6cb6bf6fca3ae9541de40c84a2d4b0151aeae2d7a88d1b09a\",\"contentHash\":\"51bc513113548e062ada62b03efea153cae2abdf46b051c551c3e62a4dfb88cf\",\"originalHash\":\"bb41eeeedb7789a3482cc74a1ac8d84effb2a508b753948130e3958c39004120\",\"sourceType\":\"local\",\"schema\":[{\"name\":\"id\",\"types\":[\"number\"],\"nullable\":false,\"optional\":false}],\"canonicalization\":\"dtm-v1\"}\n",
+        "stderr": ""
+      },
+      {
+        "code": 2,
+        "signal": null,
+        "stdout": "",
+        "stderr": "{\"message\":\"Capture name is locked; inspect doctor before retrying\"}\n"
+      },
+      {
+        "code": 0,
+        "signal": null,
+        "stdout": "{\"name\":\"a\",\"datasetName\":\"local\",\"keyColumns\":[],\"dataCompleteness\":\"unknown\",\"schemaVersion\":1,\"id\":\"96821269-f2d1-43fa-87eb-602701facae6\",\"capturedAt\":\"2026-10-20T08:34:50.480Z\",\"format\":\"json\",\"rowCount\":1,\"columnCount\":1,\"schemaHash\":\"73a4d068ad8479d6cb6bf6fca3ae9541de40c84a2d4b0151aeae2d7a88d1b09a\",\"contentHash\":\"51bc513113548e062ada62b03efea153cae2abdf46b051c551c3e62a4dfb88cf\",\"originalHash\":\"bb41eeeedb7789a3482cc74a1ac8d84effb2a508b753948130e3958c39004120\",\"sourceType\":\"local\",\"schema\":[{\"name\":\"id\",\"types\":[\"number\"],\"nullable\":false,\"optional\":false}],\"canonicalization\":\"dtm-v1\"}\n",
+        "stderr": ""
+      },
+      {
+        "code": 0,
+        "signal": null,
+        "stdout": "{\"name\":\"b\",\"datasetName\":\"local\",\"keyColumns\":[],\"dataCompleteness\":\"unknown\",\"schemaVersion\":1,\"id\":\"76ca0b12-b53f-4b66-baab-48aea85c845c\",\"capturedAt\":\"2026-10-20T08:34:50.532Z\",\"format\":\"json\",\"rowCount\":1,\"columnCount\":1,\"schemaHash\":\"73a4d068ad8479d6cb6bf6fca3ae9541de40c84a2d4b0151aeae2d7a88d1b09a\",\"contentHash\":\"51bc513113548e062ada62b03efea153cae2abdf46b051c551c3e62a4dfb88cf\",\"originalHash\":\"bb41eeeedb7789a3482cc74a1ac8d84effb2a508b753948130e3958c39004120\",\"sourceType\":\"local\",\"schema\":[{\"name\":\"id\",\"types\":[\"number\"],\"nullable\":false,\"optional\":false}],\"canonicalization\":\"dtm-v1\"}\n",
+        "stderr": ""
+      }
+    ],
+    "crash": {
+      "doctorBeforeManualRecovery": {
+        "checked": 1,
+        "failures": [],
+        "orphans": [
+          ".52d3b3c9-d734-4727-a0ae-7502c79fdd60.tmp"
+        ],
+        "pendingCaptures": [
+          "89adf65813e07e7c8f2ef568099ad92bf51fbe1b8e7900062c50c9e68bba8b2f.lock"
+        ]
+      },
+      "doctorAfterManualRecovery": {
+        "checked": 3,
+        "failures": [],
+        "orphans": [],
+        "pendingCaptures": []
+      }
+    },
+    "injectedFailures": {
+      "disk": {
+        "code": 2,
+        "signal": null,
+        "stdout": "",
+        "stderr": "{\"message\":\"Injected disk full before commit\",\"code\":\"ENOSPC\"}\n"
+      },
+      "collision": {
+        "code": 2,
+        "signal": null,
+        "stdout": "",
+        "stderr": "{\"message\":\"EPERM: operation not permitted, rename 'C:\\\\Users\\\\SHUBHA~1\\\\AppData\\\\Local\\\\Temp\\\\dtm-independent-audit-0oSpBv\\\\failures\\\\snapshots\\\\.6fbf0e94-18d9-469c-98f2-bba32e7db24e.tmp' -> 'C:\\\\Users\\\\SHUBHA~1\\\\AppData\\\\Local\\\\Temp\\\\dtm-independent-audit-0oSpBv\\\\failures\\\\snapshots\\\\6fbf0e94-18d9-469c-98f2-bba32e7db24e'\",\"code\":\"EPERM\"}\n"
+      }
+    },
+    "corruption": {
+      "affectedId": "a61961ff-ea99-4b08-ab83-d9e1eff72bf6",
+      "preservedId": "84deb129-61d3-433f-825f-d34084e5893e",
+      "limitation": "Name-based reads and new captures fail closed when any committed metadata is corrupt; UUID read remains available."
+    },
+    "exports": [
+      "DomoTimeMachineError",
+      "Exact",
+      "VERSION",
+      "Workspace",
+      "canonical",
+      "captureOptions",
+      "compare",
+      "compareSchemas",
+      "digest",
+      "ensure",
+      "financialRuleSchema",
+      "inspectCapsule",
+      "investigate",
+      "keyOf",
+      "limits",
+      "makeCapsule",
+      "metric",
+      "metricSchema",
+      "numeric",
+      "previewCapsule",
+      "readCapsule",
+      "regressionSource",
+      "replay",
+      "replayCapsule",
+      "requireColumns",
+      "saveJson",
+      "scenarioSchema",
+      "schemaHistory",
+      "schemaOf",
+      "stepSchema",
+      "validateFinancial",
+      "validateRow"
+    ],
+    "installedFiles": [
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "dist/adapters/domo.d.ts",
+      "dist/adapters/domo.js",
+      "dist/capsules/index.d.ts",
+      "dist/capsules/index.js",
+      "dist/cli/index.d.ts",
+      "dist/cli/index.js",
+      "dist/cli/reporters.d.ts",
+      "dist/cli/reporters.js",
+      "dist/core/model.d.ts",
+      "dist/core/model.js",
+      "dist/diff/index.d.ts",
+      "dist/diff/index.js",
+      "dist/index.d.ts",
+      "dist/index.js",
+      "dist/investigation/index.d.ts",
+      "dist/investigation/index.js",
+      "dist/metrics/financial.d.ts",
+      "dist/metrics/financial.js",
+      "dist/metrics/index.d.ts",
+      "dist/metrics/index.js",
+      "dist/replay/index.d.ts",
+      "dist/replay/index.js",
+      "dist/schema/index.d.ts",
+      "dist/schema/index.js",
+      "dist/snapshots/import.d.ts",
+      "dist/snapshots/import.js",
+      "dist/storage/workspace.d.ts",
+      "dist/storage/workspace.js",
+      "docs/API.md",
+      "docs/DEVELOPMENT_REPORT.md",
+      "docs/DOMO_INTEGRATION.md",
+      "docs/END_TO_END_REPORT.md",
+      "docs/SEMANTICS.md",
+      "examples/booking-reconciliation/bookings.csv",
+      "examples/booking-reconciliation/candidate.yaml",
+      "examples/booking-reconciliation/faulty.yaml",
+      "examples/booking-reconciliation/tickets.ndjson",
+      "LICENSE",
+      "package.json",
+      "README.md",
+      "SECURITY.md"
+    ],
+    "publishedReadme": "# Domo Time Machine\n\n**Travel Back. Reproduce the Failure. Prove the Fix.**\n\nOne independently installable npm package for offline dataset forensics. Includes\na TypeScript/JavaScript SDK and a CLI. No frontend, server, database, cloud account\nor Domo authentication is needed. Requires Node 22.13+.\n\n## Installation\n\n```sh\nnpm install domo-time-machine\nnpx domo-time-machine --help\n```\n\nVersion **0.1.0 is published**. This checkout prepares the **0.1.1 patch candidate**;\nlocal fixes do not reach npm until a new release is explicitly authorized. To\nevaluate this candidate before publication, build and install the local tarball:\n\n```sh\nnpm ci\nnpm run build\nnpm pack\nnpm exec --offline --package=./.artifacts/packages/domo-time-machine-0.1.1.tgz -- domo-time-machine --help\n```\n\nTo install persistently, create a fresh project outside this repository and pass\nthe absolute tarball path to `npm install`. The package provides the `domo-time-machine` binary and ESM APIs\nwith `.d.ts` declarations. CommonJS callers can use dynamic `import()`.\n\n## CLI\n\n```sh\nnpx domo-time-machine init\nnpx domo-time-machine capture before.csv --name before --dataset bookings --key Booking_ID --completeness complete\nnpx domo-time-machine capture after.ndjson --name after --dataset bookings\nnpx domo-time-machine snapshots list\nnpx domo-time-machine snapshots inspect before\nnpx domo-time-machine diff before after --key Booking_ID\nnpx domo-time-machine --format text diff before after --key Booking_ID\nnpx domo-time-machine schema compare before after\nnpx domo-time-machine schema history --dataset bookings\nnpx domo-time-machine validate before --column Fare --currency INR --expected 8000\nnpx domo-time-machine investigate before after --key Booking_ID --metric Fare --currency INR --currency-column Currency\nnpx domo-time-machine doctor\n```\n\nUse `--workspace <directory>` for a different storage location. Global\n`--format json|text` applies to every data-reporting command. The diff text format\nis a compact summary; other text reports print readable field/value paths.\n`--out <file>` on diff/investigate/replay writes the complete JSON evidence report\nusing exclusive creation. Existing files are never overwritten.\n\nExit codes: **0** successful operation, **1** failed financial/replay assertion,\ndiff gate or doctor integrity check, **2** invalid arguments/configuration or\nexecution failure. Add `diff --fail-on-change` for CI comparison gates.\n\nCapture CSV, JSON arrays or NDJSON. CSV cells remain strings; JSON scalar types\nare preserved. Missing, null, empty string and zero remain distinct. Default\ncompleteness is `unknown`; only declare `complete` when justified by the export.\n`capture --dry-run` reports size/name without creating a snapshot; it is not a\nfull parsing check.\n\nComposite keys use commas. `--after-key` maps before/after key names positionally.\nWithout keys, diff uses unordered multiset comparison. Repeated business keys\nare reported, exact records cancel by multiplicity, and unmatched repeated-key\nrecords remain ambiguous rather than being paired arbitrarily.\n\n## TypeScript / JavaScript SDK\n\n```ts\nimport {\n  Workspace,\n  compare,\n  compareSchemas,\n  schemaHistory,\n  validateFinancial,\n  investigate,\n  type Snapshot,\n  type FinancialRule,\n} from 'domo-time-machine';\n\nconst store = new Workspace('./evidence');\nawait store.capture('./before.csv', {\n  name: 'before',\n  datasetName: 'bookings',\n  keyColumns: ['Booking_ID'],\n});\nawait store.capture('./after.json', { name: 'after', datasetName: 'bookings' });\nconst before: Snapshot = await store.get('before'); // verifies artifact integrity\nconst after = await store.get('after');\nconst difference = compare(before, after, ['Booking_ID']);\nconst schema = compareSchemas(before.metadata.schema, after.metadata.schema);\nconst history = schemaHistory(await store.list(), 'bookings');\nconst rule: FinancialRule = { column: 'Fare', currency: 'INR', expected: '8000' };\nconst validation = validateFinancial(before.rows, rule);\nconst report = investigate(\n  before,\n  after,\n  ['Booking_ID'],\n  [\n    {\n      name: 'fare',\n      column: 'Fare',\n      aggregation: 'sum',\n      currency: 'INR',\n      currencyColumn: 'Currency',\n      groupBy: ['Booking_ID'],\n    },\n  ],\n);\nconsole.log({ difference, schema, history, validation, report });\n```\n\nSee [public API reference](docs/API.md) for contracts, replay and capsule examples.\nSDK imports read package-version metadata but do not access datasets, create workspaces or make network requests.\n\nFinancial validation uses decimal arithmetic and a currency column (`Currency`\nby default). Mixed/missing currencies, missing/null/invalid amounts, empty totals\nand amounts beyond the configured absolute tolerance fail the gate. There is no\nautomatic FX conversion. Use decimal **strings** to avoid losing precision before\nthe SDK receives values. Raw metric aggregations report excluded cells separately;\nthe stricter financial validator does not approve a partial total.\n\n## Booking reconciliation and deterministic replay\n\n```sh\nnpm run demo\n```\n\nThis executes actual synthetic fixtures in a fresh workspace, reproduces a faulty\none-to-many join (fare 13000 versus booking total 8000), identifies BK101's +5000\ncontribution, runs a booking-grain candidate (8000, with all three ticket records\naccounted for by TicketCount), and verifies a portable replay capsule.\n\n```sh\ndomo-time-machine capture examples/booking-reconciliation/bookings.csv --name bookings\ndomo-time-machine capture examples/booking-reconciliation/tickets.ndjson --name tickets\ndomo-time-machine replay examples/booking-reconciliation/faulty.yaml\ndomo-time-machine replay examples/booking-reconciliation/candidate.yaml\n```\n\nReplay DSL v1 supports select, rename, filter, inner/left join, group/aggregate,\ndeduplicate, sort and derived arithmetic. It accepts no code, arbitrary SQL,\nfilesystem paths or network operations. Assertions and output hashes support\nregression testing. Candidate scenarios never mutate original snapshots. This\nengine models supported operations; it does not execute arbitrary Magic ETL files.\nTicket fees, cancellations and legitimate reissue charges need business-specific rules.\n\n## Incident capsules\n\n```sh\ndomo-time-machine capsule create examples/booking-reconciliation/candidate.yaml\ndomo-time-machine capsule create examples/booking-reconciliation/candidate.yaml --reviewed --synthetic --out incident.json\ndomo-time-machine capsule inspect incident.json\ndomo-time-machine capsule replay incident.json\ndomo-time-machine capsule regression incident.json --out regression.mjs\nnode regression.mjs\n```\n\nThe first command previews every included value. Review before using `--reviewed`;\nuse `--synthetic` only for synthetic inputs. Plain JSON capsules contain embedded\ninputs, DSL, assertions and integrity hashes. There is no automatic anonymization,\nminimization or executable-code import. Prefer a minimized synthetic reproduction.\n\n## Development and verification\n\n```sh\nnpm ci\nnpm run typecheck\nnpm run lint\nnpm run format:check\nnpm test\nnpm run build\nnpm run demo\nnpm run test:package\nnpm run test:e2e\n```\n\n`test:package` packs the package, inspects its contents, installs into a fresh\nproject, invokes the executable through npm exec (the same mechanism as npx),\ncompiles a TypeScript consumer and runs installed SDK/CLI workflows with network\naccess disabled. Tests cover booking reconciliation, missing rows, schema changes,\nduplicate joins, financial discrepancies, storage safety and malicious inputs.\nGitHub Actions defines Windows/Linux and Node 22/24 checks; remote CI execution is\nseparate from local verification.\n`npm run test:e2e` runs black-box CLI/SDK workflows against a fresh installation\nof the local tarball. `npm run test:e2e:published` separately downloads and tests\nthe current public release from a cold npm cache. Results are written under\n`.artifacts/reports`, and failing synthetic workspaces are retained for reproduction.\nRegistry tests are opt-in and require network access for installation; all dataset\noperations after installation run with network entry points blocked.\n\nGenerated files are consolidated under `.artifacts/`: npm downloads in `npm-cache`,\npackage archives in `packages`, saved demonstrations in `demos`, and disposable\ntest/benchmark work in `tmp`. Existing demonstration workspaces from earlier builds\nare preserved in `legacy-workspaces`. No generated archive or test workspace is\nwritten into the project root by these scripts. The local `.npmrc` also directs\nplain `npm pack` output into `.artifacts/packages`.\n\nUse `npm run clean` to remove `dist`, temporary test files and generated archives.\nIt preserves saved demos, archived workspaces, npm cache and installed dependencies.\n`npm run build` or the automatic `prepack` hook regenerates `dist` before packaging\nor direct `npm publish`. `node_modules` is required for development and `dist` is\nthe compiled SDK/CLI used by the installed package; both are intentionally retained\nafter verification. Nothing under `.artifacts` is included in the npm package.\nDirect `npm publish` also runs type checking, lint, formatting checks and tests\nthrough `prepublishOnly` before rebuilding the package. No script publishes automatically.\n\nCurrent limits: 64 MiB source, 128 MiB normalized evidence, 100,000 rows, 256 columns,\n50 replay steps, 100,000 output rows per step and cooperative 15-second replay\nchecks. Imports stream CSV/NDJSON but bounded normalized rows stay in memory.\nNested JSON, unsafe integers and header-only CSV are rejected. Dates are strings.\n\nv0.1 priorities are CLI/SDK, immutable captures, comparison/schema history,\nfinancial validation and packaging. Existing tested replay/investigation and\ncapsule features are retained as experimental APIs planned for stabilization in\nv0.2/v0.3. A read-only Domo connector is [designed](docs/DOMO_INTEGRATION.md), not\nimplemented. AI is future optional scope. No production writes or automatic\npublication exist. See [verification report](docs/DEVELOPMENT_REPORT.md),\n[semantics](docs/SEMANTICS.md), and [security](SECURITY.md).\nFor the published-release defects, candidate fixes and executed runtime matrix,\nsee [real-user end-to-end verification](docs/END_TO_END_REPORT.md).\n",
+    "limitations": [
+      "Three repetitions per size; descriptive median and nearest-rank p95 (maximum of three), not a production tail estimate.",
+      "First read follows capture and is not an OS cold-cache measurement.",
+      "RSS/heap sampled after each workflow; maxRSS is lifetime high-water mark, not per-operation attribution.",
+      "1,000,000 rows unsupported by 100,000-row limit.",
+      "No live Domo, Linux/macOS execution or power-loss simulation."
+    ]
+  },
+  "benchmarks": [
+    {
+      "rows": 100,
+      "repetition": 0,
+      "captureMs": 60.61359999999695,
+      "firstReadMs": 28.879000000000815,
+      "warmReadMs": 20.70889999999781,
+      "diffMs": 4.063999999998487,
+      "replayMs": 15.5853000000061,
+      "cpuMicroseconds": {
+        "user": 47000,
+        "system": 125000
+      },
+      "endMemory": {
+        "rss": 52260864,
+        "heapTotal": 11902976,
+        "heapUsed": 11102408,
+        "external": 2738181,
+        "arrayBuffers": 67904
+      },
+      "processLifetimeMaxRssKiB": 52296,
+      "sourceBytes": 2789,
+      "storageBytes": 6396
+    },
+    {
+      "rows": 100,
+      "repetition": 1,
+      "captureMs": 56.6929999999993,
+      "firstReadMs": 26.070099999997183,
+      "warmReadMs": 20.192900000009104,
+      "diffMs": 2.8523999999888474,
+      "replayMs": 3.4891000000061467,
+      "cpuMicroseconds": {
+        "user": 47000,
+        "system": 62000
+      },
+      "endMemory": {
+        "rss": 52084736,
+        "heapTotal": 12427264,
+        "heapUsed": 11190416,
+        "external": 2609783,
+        "arrayBuffers": 76117
+      },
+      "processLifetimeMaxRssKiB": 52324,
+      "sourceBytes": 2789,
+      "storageBytes": 6396
+    },
+    {
+      "rows": 100,
+      "repetition": 2,
+      "captureMs": 56.6481000000058,
+      "firstReadMs": 22.568700000003446,
+      "warmReadMs": 19.769000000000233,
+      "diffMs": 2.4817000000039116,
+      "replayMs": 4.948699999993551,
+      "cpuMicroseconds": {
+        "user": 15000,
+        "system": 141000
+      },
+      "endMemory": {
+        "rss": 51707904,
+        "heapTotal": 13737984,
+        "heapUsed": 11294344,
+        "external": 2552460,
+        "arrayBuffers": 84330
+      },
+      "processLifetimeMaxRssKiB": 52324,
+      "sourceBytes": 2789,
+      "storageBytes": 6396
+    },
+    {
+      "rows": 1000,
+      "repetition": 0,
+      "captureMs": 103.12270000000717,
+      "firstReadMs": 31.965299999996205,
+      "warmReadMs": 36.94049999999697,
+      "diffMs": 51.80780000000959,
+      "replayMs": 27.795799999992596,
+      "cpuMicroseconds": {
+        "user": 297000,
+        "system": 78000
+      },
+      "endMemory": {
+        "rss": 60416000,
+        "heapTotal": 21864448,
+        "heapUsed": 12856424,
+        "external": 2367477,
+        "arrayBuffers": 33209
+      },
+      "processLifetimeMaxRssKiB": 59000,
+      "sourceBytes": 28889,
+      "storageBytes": 58597
+    },
+    {
+      "rows": 1000,
+      "repetition": 1,
+      "captureMs": 91.98140000000421,
+      "firstReadMs": 36.14800000000105,
+      "warmReadMs": 28.93289999999979,
+      "diffMs": 30.33289999999397,
+      "replayMs": 32.085800000000745,
+      "cpuMicroseconds": {
+        "user": 203000,
+        "system": 63000
+      },
+      "endMemory": {
+        "rss": 62021632,
+        "heapTotal": 30253056,
+        "heapUsed": 17427640,
+        "external": 2375690,
+        "arrayBuffers": 41422
+      },
+      "processLifetimeMaxRssKiB": 61528,
+      "sourceBytes": 28889,
+      "storageBytes": 58597
+    },
+    {
+      "rows": 1000,
+      "repetition": 2,
+      "captureMs": 88.06420000000799,
+      "firstReadMs": 34.01009999999951,
+      "warmReadMs": 27.0286000000051,
+      "diffMs": 22.769700000004377,
+      "replayMs": 26.965099999986705,
+      "cpuMicroseconds": {
+        "user": 188000,
+        "system": 47000
+      },
+      "endMemory": {
+        "rss": 71540736,
+        "heapTotal": 31563776,
+        "heapUsed": 17678760,
+        "external": 2375711,
+        "arrayBuffers": 41443
+      },
+      "processLifetimeMaxRssKiB": 69864,
+      "sourceBytes": 28889,
+      "storageBytes": 58597
+    },
+    {
+      "rows": 10000,
+      "repetition": 0,
+      "captureMs": 250.60229999999865,
+      "firstReadMs": 142.75880000001052,
+      "warmReadMs": 120.13390000000072,
+      "diffMs": 275.99000000000524,
+      "replayMs": 163.82339999999385,
+      "cpuMicroseconds": {
+        "user": 1453000,
+        "system": 110000
+      },
+      "endMemory": {
+        "rss": 101769216,
+        "heapTotal": 62304256,
+        "heapUsed": 42676448,
+        "external": 3105120,
+        "arrayBuffers": 770852
+      },
+      "processLifetimeMaxRssKiB": 104388,
+      "sourceBytes": 298889,
+      "storageBytes": 598598
+    },
+    {
+      "rows": 10000,
+      "repetition": 1,
+      "captureMs": 208.4219000000012,
+      "firstReadMs": 102.10960000001069,
+      "warmReadMs": 101.38420000000042,
+      "diffMs": 236.41300000000047,
+      "replayMs": 188.57489999999234,
+      "cpuMicroseconds": {
+        "user": 1297000,
+        "system": 78000
+      },
+      "endMemory": {
+        "rss": 103878656,
+        "heapTotal": 65142784,
+        "heapUsed": 35837008,
+        "external": 2369084,
+        "arrayBuffers": 34816
+      },
+      "processLifetimeMaxRssKiB": 105384,
+      "sourceBytes": 298889,
+      "storageBytes": 598598
+    },
+    {
+      "rows": 10000,
+      "repetition": 2,
+      "captureMs": 196.78800000000047,
+      "firstReadMs": 108.68050000000221,
+      "warmReadMs": 86.47019999999611,
+      "diffMs": 217.87840000000142,
+      "replayMs": 176.9728000000032,
+      "cpuMicroseconds": {
+        "user": 750000,
+        "system": 125000
+      },
+      "endMemory": {
+        "rss": 120471552,
+        "heapTotal": 81092608,
+        "heapUsed": 52645080,
+        "external": 2377297,
+        "arrayBuffers": 43029
+      },
+      "processLifetimeMaxRssKiB": 117648,
+      "sourceBytes": 298889,
+      "storageBytes": 598598
+    },
+    {
+      "rows": 100000,
+      "repetition": 0,
+      "captureMs": 1520.6501000000135,
+      "firstReadMs": 853.7655999999988,
+      "warmReadMs": 815.3940999999904,
+      "diffMs": 1930.2260999999853,
+      "replayMs": 1522.2603999999992,
+      "cpuMicroseconds": {
+        "user": 8297000,
+        "system": 360000
+      },
+      "endMemory": {
+        "rss": 248983552,
+        "heapTotal": 172851200,
+        "heapUsed": 150604568,
+        "external": 2364807,
+        "arrayBuffers": 33195
+      },
+      "processLifetimeMaxRssKiB": 247916,
+      "sourceBytes": 3088889,
+      "storageBytes": 6178599
+    },
+    {
+      "rows": 100000,
+      "repetition": 1,
+      "captureMs": 1157.7655999999843,
+      "firstReadMs": 810.8418000000238,
+      "warmReadMs": 814.5176999999967,
+      "diffMs": 2140.0368000000017,
+      "replayMs": 1432.6505999999936,
+      "cpuMicroseconds": {
+        "user": 8187000,
+        "system": 421000
+      },
+      "endMemory": {
+        "rss": 369254400,
+        "heapTotal": 271065088,
+        "heapUsed": 239402128,
+        "external": 2363490,
+        "arrayBuffers": 33195
+      },
+      "processLifetimeMaxRssKiB": 371384,
+      "sourceBytes": 3088889,
+      "storageBytes": 6178599
+    },
+    {
+      "rows": 100000,
+      "repetition": 2,
+      "captureMs": 1143.411699999997,
+      "firstReadMs": 823.4378999999899,
+      "warmReadMs": 753.0951000000059,
+      "diffMs": 2128.0001000000047,
+      "replayMs": 1349.1963000000105,
+      "cpuMicroseconds": {
+        "user": 7640000,
+        "system": 500000
+      },
+      "endMemory": {
+        "rss": 580202496,
+        "heapTotal": 536674304,
+        "heapUsed": 500746872,
+        "external": 2363511,
+        "arrayBuffers": 33216
+      },
+      "processLifetimeMaxRssKiB": 569660,
+      "sourceBytes": 3088889,
+      "storageBytes": 6178599
+    }
+  ]
+}

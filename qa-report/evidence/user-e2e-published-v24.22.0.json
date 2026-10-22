@@ -1,0 +1,107 @@
+{
+  "mode": "published",
+  "package": "domo-time-machine@0.1.1",
+  "registryMetadata": {
+    "version": "0.1.1",
+    "dist.integrity": "sha512-KzDtHixaKp1BdkGnHld4m/IZoNbkNlUnZMCZtnHGpaW09oKYx1szMUzR8n4v4c746qJjKOaE1IZscad7eMkoOw=="
+  },
+  "node": "v24.22.0",
+  "platform": "win32",
+  "architecture": "x64",
+  "createdAt": "2026-10-20T08:29:18.238Z",
+  "workspace": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm independent published Ω h34HAn",
+  "checks": [
+    {
+      "name": "fresh normal npm installation and executable discovery",
+      "passed": true,
+      "durationMs": 32752
+    },
+    {
+      "name": "offline capture, inspect and monetary validation",
+      "passed": true,
+      "durationMs": 3982
+    },
+    {
+      "name": "record diff, schema history, investigation and text reports",
+      "passed": true,
+      "durationMs": 3272
+    },
+    {
+      "name": "CSV BOM, quoted newlines, Unicode names and string-preserved keys",
+      "passed": true,
+      "durationMs": 1410
+    },
+    {
+      "name": "Windows UTF-8 BOM NDJSON capture",
+      "passed": true,
+      "durationMs": 482
+    },
+    {
+      "name": "booking join replay and reviewed capsule portability",
+      "passed": true,
+      "durationMs": 3718
+    },
+    {
+      "name": "regression harness exported to a different directory",
+      "passed": true,
+      "durationMs": 1297
+    },
+    {
+      "name": "invalid inputs fail safely and cannot overwrite reports or captures",
+      "passed": true,
+      "durationMs": 3753
+    },
+    {
+      "name": "installed TypeScript declarations compile without ancestor types",
+      "passed": true,
+      "durationMs": 4296
+    },
+    {
+      "name": "exact decimals and strict financial gates",
+      "passed": true
+    },
+    {
+      "name": "typed keys, missing fields, duplicate ambiguity and row-order invariance",
+      "passed": true
+    },
+    {
+      "name": "duplicate destination key mappings are rejected",
+      "passed": true
+    },
+    {
+      "name": "replay assertions accept equivalent decimal spellings",
+      "passed": true
+    },
+    {
+      "name": "invalid numeric cells cannot silently pass replay totals",
+      "passed": true
+    },
+    {
+      "name": "replay preserves input data and is deterministic",
+      "passed": true
+    },
+    {
+      "name": "replay validates limits and cancellation",
+      "passed": true
+    },
+    {
+      "name": "reviewed capsules round trip with integrity verification",
+      "passed": true
+    },
+    {
+      "name": "capsule export rejects undeclared inputs instead of producing an unreplayable capsule",
+      "passed": true
+    },
+    {
+      "name": "capsule inspection validates alias identity, not only alias count",
+      "passed": true
+    },
+    {
+      "name": "package version and executable version stay aligned after a patch bump",
+      "passed": true,
+      "durationMs": 512
+    }
+  ],
+  "passed": 20,
+  "failed": 0
+}

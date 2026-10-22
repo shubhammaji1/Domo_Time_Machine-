@@ -1,0 +1,14 @@
+{
+  "name": "local-e2e",
+  "command": [
+    "node",
+    "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "run",
+    "test:e2e"
+  ],
+  "node": "v22.22.0",
+  "exitCode": 0,
+  "milliseconds": 110232,
+  "stdout": "\n> domo-time-machine@0.1.1 test:e2e\n> node scripts/user-e2e.mjs\n\n{\n  \"mode\": \"local\",\n  \"passed\": 20,\n  \"failed\": 0,\n  \"failures\": [],\n  \"reportFile\": \"D:\\\\GWC\\\\Projects\\\\POCs\\\\DOMO TIME MACHINE\\\\.artifacts\\\\reports\\\\user-e2e-local-v22.22.0.json\"\n}\n",
+  "stderr": ""
+}

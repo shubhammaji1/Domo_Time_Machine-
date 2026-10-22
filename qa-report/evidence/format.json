@@ -1,0 +1,14 @@
+{
+  "name": "format",
+  "command": [
+    "node",
+    "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "run",
+    "format:check"
+  ],
+  "node": "v22.22.0",
+  "exitCode": 0,
+  "milliseconds": 5030,
+  "stdout": "\n> domo-time-machine@0.1.1 format:check\n> prettier --check .\n\nChecking formatting...\nAll matched files use Prettier code style!\n",
+  "stderr": ""
+}

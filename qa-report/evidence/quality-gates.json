@@ -1,0 +1,124 @@
+[
+  {
+    "name": "typecheck",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "typecheck"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 8292
+  },
+  {
+    "name": "lint",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "lint"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 35824
+  },
+  {
+    "name": "format",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "format:check"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 5030
+  },
+  {
+    "name": "build",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "build"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 9732
+  },
+  {
+    "name": "audit-production",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "audit",
+      "--omit=dev",
+      "--json"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 7376
+  },
+  {
+    "name": "audit-all",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "audit",
+      "--json"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 6960
+  },
+  {
+    "name": "dependency-tree",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "ls",
+      "--all",
+      "--json"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 6137
+  },
+  {
+    "name": "published-e2e",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "test:e2e:published"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 100340
+  },
+  {
+    "name": "package-smoke",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "test:package"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 45677
+  },
+  {
+    "name": "local-e2e",
+    "command": [
+      "node",
+      "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "test:e2e"
+    ],
+    "node": "v22.22.0",
+    "exitCode": 0,
+    "milliseconds": 110232
+  }
+]

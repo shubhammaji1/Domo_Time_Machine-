@@ -1,0 +1,14 @@
+{
+  "name": "build",
+  "command": [
+    "node",
+    "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "run",
+    "build"
+  ],
+  "node": "v22.22.0",
+  "exitCode": 0,
+  "milliseconds": 9732,
+  "stdout": "\n> domo-time-machine@0.1.1 build\n> node scripts/build.mjs\n\n",
+  "stderr": ""
+}

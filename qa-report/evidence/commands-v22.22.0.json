@@ -1,0 +1,659 @@
+[
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "view",
+      "domo-time-machine@latest",
+      "--json"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "{\n  \"_id\": \"domo-time-machine@0.1.1\",\n  \"_rev\": \"3-b9739a0f9f10734ea134c9213a929098\",\n  \"name\": \"domo-time-machine\",\n  \"dist-tags\": {\n    \"latest\": \"0.1.1\"\n  },\n  \"versions\": [\n    \"0.0.0-stage\",\n    \"0.1.0\",\n    \"0.1.1\"\n  ],\n  \"time\": {\n    \"created\": \"2026-10-19T09:20:42.247Z\",\n    \"modified\": \"2026-10-20T07:45:12.633Z\",\n    \"0.0.0-stage\": \"2026-10-19T09:20:42.247Z\",\n    \"0.1.0\": \"2026-10-19T09:22:50.446Z\",\n    \"0.1.1\": \"2026-10-20T07:45:12.181Z\"\n  },\n  \"author\": \"SHUBHAM MAJI\",\n  \"license\": \"MIT\",\n  \"description\": \"Offline dataset forensics and deterministic replay for Domo developers\",\n  \"maintainers\": [\n    \"shubhammaji1 <shubham.office.0001@gmail.com>\"\n  ],\n  \"readmeFilename\": \"README.md\",\n  \"_contentLength\": 16640,\n  \"bin\": {\n    \"domo-time-machine\": \"dist/cli/index.js\"\n  },\n  \"dist\": {\n    \"shasum\": \"2dfe3a6c77f5ad36d9358d91563e29932c0e322e\",\n    \"tarball\": \"https://registry.npmjs.org/domo-time-machine/-/domo-time-machine-0.1.1.tgz\",\n    \"fileCount\": 43,\n    \"integrity\": \"sha512-KzDtHixaKp1BdkGnHld4m/IZoNbkNlUnZMCZtnHGpaW09oKYx1szMUzR8n4v4c746qJjKOaE1IZscad7eMkoOw==\",\n    \"signatures\": [\n      {\n        \"sig\": \"MEUCIQD8eG2S/A6Ki1uiugcykIBfz/uf05VdFcLNXyr8CDbGQwIgeMfA+99ixrAASzzUsNFQPlfmn+gK76nE36jO4cra54A=\",\n        \"keyid\": \"SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U\"\n      },\n      {\n        \"keyid\": \"SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U\",\n        \"sig\": \"MEYCIQCZP8dgsLOXKfMBMvGWjU+lvejzBUNNYyYAQ7vLV1pH2wIhAMyQhTxOSP6tIYh4ajDYlz+uBCABBwHGxkrT5ksTmP33\"\n      }\n    ],\n    \"unpackedSize\": 181276\n  },\n  \"main\": \"./dist/index.js\",\n  \"type\": \"module\",\n  \"types\": \"./dist/index.d.ts\",\n  \"engines\": {\n    \"node\": \">=22.13.0\"\n  },\n  \"exports\": {\n    \".\": {\n      \"types\": \"./dist/index.d.ts\",\n      \"import\": \"./dist/index.js\"\n    }\n  },\n  \"private\": false,\n  \"scripts\": {\n    \"dev\": \"tsx src/cli/index.ts\",\n    \"demo\": \"tsx scripts/demo.ts\",\n    \"lint\": \"eslint .\",\n    \"test\": \"vitest run\",\n    \"build\": \"node scripts/build.mjs\",\n    \"clean\": \"node scripts/clean.mjs\",\n    \"format\": \"prettier --write .\",\n    \"prepack\": \"npm run build\",\n    \"test:e2e\": \"node scripts/user-e2e.mjs\",\n    \"benchmark\": \"tsx scripts/benchmark.ts\",\n    \"typecheck\": \"tsc --noEmit\",\n    \"pack:check\": \"npm pack --dry-run\",\n    \"format:check\": \"prettier --check .\",\n    \"test:package\": \"node scripts/package-smoke.mjs\",\n    \"prepublishOnly\": \"npm run typecheck && npm run lint && npm run format:check && npm test && npm run test:e2e\",\n    \"test:e2e:published\": \"node scripts/user-e2e.mjs --published\"\n  },\n  \"version\": \"0.1.1\",\n  \"_npmUser\": \"shubhammaji1 <shubham.office.0001@gmail.com>\",\n  \"_npmVersion\": \"10.9.4\",\n  \"directories\": {},\n  \"_nodeVersion\": \"22.22.0\",\n  \"dependencies\": {\n    \"zod\": \"^3.25.76\",\n    \"yaml\": \"^2.8.1\",\n    \"commander\": \"^13.1.0\",\n    \"csv-parse\": \"^7.0.3\",\n    \"decimal.js\": \"^10.6.0\"\n  },\n  \"_hasShrinkwrap\": false,\n  \"devDependencies\": {\n    \"tsx\": \"^4.20.6\",\n    \"eslint\": \"^9.37.0\",\n    \"vitest\": \"^5.0.5\",\n    \"prettier\": \"^3.6.2\",\n    \"fast-check\": \"^4.3.0\",\n    \"typescript\": \"^5.9.3\",\n    \"@types/node\": \"^22.18.0\",\n    \"typescript-eslint\": \"^8.46.0\"\n  },\n  \"_npmOperationalInternal\": {\n    \"host\": \"s3://npm-registry-packages-npm-production\",\n    \"tmp\": \"tmp/domo-time-machine_0.1.1_1792482312102_0.2792591316432671\"\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "install",
+      "--no-fund",
+      "--no-audit",
+      "domo-time-machine"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "\nadded 6 packages in 9s\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "uninstall",
+      "domo-time-machine",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "\nremoved 6 packages in 5s\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "install",
+      "--no-audit",
+      "--no-fund",
+      "domo-time-machine@0.1.1"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "\nadded 6 packages in 8s\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "pack",
+      "domo-time-machine@0.1.1",
+      "--dry-run",
+      "--json",
+      "--ignore-scripts"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "[\n  {\n    \"id\": \"domo-time-machine@0.1.1\",\n    \"name\": \"domo-time-machine\",\n    \"version\": \"0.1.1\",\n    \"size\": 41573,\n    \"unpackedSize\": 181276,\n    \"shasum\": \"2dfe3a6c77f5ad36d9358d91563e29932c0e322e\",\n    \"integrity\": \"sha512-KzDtHixaKp1BdkGnHld4m/IZoNbkNlUnZMCZtnHGpaW09oKYx1szMUzR8n4v4c746qJjKOaE1IZscad7eMkoOw==\",\n    \"filename\": \"domo-time-machine-0.1.1.tgz\",\n    \"files\": [\n      {\n        \"path\": \"CHANGELOG.md\",\n        \"size\": 1383,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"CONTRIBUTING.md\",\n        \"size\": 1881,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"LICENSE\",\n        \"size\": 1087,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"README.md\",\n        \"size\": 10250,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"SECURITY.md\",\n        \"size\": 2504,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/adapters/domo.d.ts\",\n        \"size\": 675,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/adapters/domo.js\",\n        \"size\": 11,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/capsules/index.d.ts\",\n        \"size\": 33978,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/capsules/index.js\",\n        \"size\": 4950,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/cli/index.d.ts\",\n        \"size\": 31,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/cli/index.js\",\n        \"size\": 9148,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/cli/reporters.d.ts\",\n        \"size\": 78,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/cli/reporters.js\",\n        \"size\": 1186,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/core/model.d.ts\",\n        \"size\": 2377,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/core/model.js\",\n        \"size\": 3415,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/diff/index.d.ts\",\n        \"size\": 1111,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/diff/index.js\",\n        \"size\": 4545,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/index.d.ts\",\n        \"size\": 438,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/index.js\",\n        \"size\": 331,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/investigation/index.d.ts\",\n        \"size\": 3626,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/investigation/index.js\",\n        \"size\": 3093,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/metrics/financial.d.ts\",\n        \"size\": 1814,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/metrics/financial.js\",\n        \"size\": 1918,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/metrics/index.d.ts\",\n        \"size\": 2055,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/metrics/index.js\",\n        \"size\": 4571,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/replay/index.d.ts\",\n        \"size\": 21218,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/replay/index.js\",\n        \"size\": 15118,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/schema/index.d.ts\",\n        \"size\": 695,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/schema/index.js\",\n        \"size\": 1543,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/snapshots/import.d.ts\",\n        \"size\": 234,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/snapshots/import.js\",\n        \"size\": 2606,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/storage/workspace.d.ts\",\n        \"size\": 636,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/storage/workspace.js\",\n        \"size\": 9322,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/API.md\",\n        \"size\": 6011,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/DEVELOPMENT_REPORT.md\",\n        \"size\": 9031,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/DOMO_INTEGRATION.md\",\n        \"size\": 2937,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/END_TO_END_REPORT.md\",\n        \"size\": 7233,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/SEMANTICS.md\",\n        \"size\": 5255,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"examples/booking-reconciliation/bookings.csv\",\n        \"size\": 55,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"examples/booking-reconciliation/candidate.yaml\",\n        \"size\": 632,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"examples/booking-reconciliation/faulty.yaml\",\n        \"size\": 381,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"examples/booking-reconciliation/tickets.ndjson\",\n        \"size\": 128,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"package.json\",\n        \"size\": 1785,\n        \"mode\": 420\n      }\n    ],\n    \"entryCount\": 43,\n    \"bundled\": []\n  }\n]\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "pack",
+      "domo-time-machine@0.1.1",
+      "--json",
+      "--ignore-scripts",
+      "--pack-destination",
+      "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "[\n  {\n    \"id\": \"domo-time-machine@0.1.1\",\n    \"name\": \"domo-time-machine\",\n    \"version\": \"0.1.1\",\n    \"size\": 41573,\n    \"unpackedSize\": 181276,\n    \"shasum\": \"2dfe3a6c77f5ad36d9358d91563e29932c0e322e\",\n    \"integrity\": \"sha512-KzDtHixaKp1BdkGnHld4m/IZoNbkNlUnZMCZtnHGpaW09oKYx1szMUzR8n4v4c746qJjKOaE1IZscad7eMkoOw==\",\n    \"filename\": \"domo-time-machine-0.1.1.tgz\",\n    \"files\": [\n      {\n        \"path\": \"CHANGELOG.md\",\n        \"size\": 1383,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"CONTRIBUTING.md\",\n        \"size\": 1881,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"LICENSE\",\n        \"size\": 1087,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"README.md\",\n        \"size\": 10250,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"SECURITY.md\",\n        \"size\": 2504,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/adapters/domo.d.ts\",\n        \"size\": 675,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/adapters/domo.js\",\n        \"size\": 11,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/capsules/index.d.ts\",\n        \"size\": 33978,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/capsules/index.js\",\n        \"size\": 4950,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/cli/index.d.ts\",\n        \"size\": 31,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/cli/index.js\",\n        \"size\": 9148,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/cli/reporters.d.ts\",\n        \"size\": 78,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/cli/reporters.js\",\n        \"size\": 1186,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/core/model.d.ts\",\n        \"size\": 2377,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/core/model.js\",\n        \"size\": 3415,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/diff/index.d.ts\",\n        \"size\": 1111,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/diff/index.js\",\n        \"size\": 4545,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/index.d.ts\",\n        \"size\": 438,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/index.js\",\n        \"size\": 331,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/investigation/index.d.ts\",\n        \"size\": 3626,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/investigation/index.js\",\n        \"size\": 3093,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/metrics/financial.d.ts\",\n        \"size\": 1814,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/metrics/financial.js\",\n        \"size\": 1918,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/metrics/index.d.ts\",\n        \"size\": 2055,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/metrics/index.js\",\n        \"size\": 4571,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/replay/index.d.ts\",\n        \"size\": 21218,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/replay/index.js\",\n        \"size\": 15118,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/schema/index.d.ts\",\n        \"size\": 695,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/schema/index.js\",\n        \"size\": 1543,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/snapshots/import.d.ts\",\n        \"size\": 234,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/snapshots/import.js\",\n        \"size\": 2606,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/storage/workspace.d.ts\",\n        \"size\": 636,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"dist/storage/workspace.js\",\n        \"size\": 9322,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/API.md\",\n        \"size\": 6011,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/DEVELOPMENT_REPORT.md\",\n        \"size\": 9031,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/DOMO_INTEGRATION.md\",\n        \"size\": 2937,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/END_TO_END_REPORT.md\",\n        \"size\": 7233,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"docs/SEMANTICS.md\",\n        \"size\": 5255,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"examples/booking-reconciliation/bookings.csv\",\n        \"size\": 55,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"examples/booking-reconciliation/candidate.yaml\",\n        \"size\": 632,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"examples/booking-reconciliation/faulty.yaml\",\n        \"size\": 381,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"examples/booking-reconciliation/tickets.ndjson\",\n        \"size\": 128,\n        \"mode\": 420\n      },\n      {\n        \"path\": \"package.json\",\n        \"size\": 1785,\n        \"mode\": 420\n      }\n    ],\n    \"entryCount\": 43,\n    \"bundled\": []\n  }\n]\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "uninstall",
+      "domo-time-machine",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "\nremoved 6 packages in 5s\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "install",
+      "--offline",
+      "--no-audit",
+      "--no-fund",
+      "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\domo-time-machine-0.1.1.tgz"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "\nadded 6 packages in 9s\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "ls",
+      "--all",
+      "--json"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "{\n  \"name\": \"independent-audit-consumer\",\n  \"dependencies\": {\n    \"domo-time-machine\": {\n      \"version\": \"0.1.1\",\n      \"resolved\": \"file:C:\\\\Users\\\\SHUBHA~1\\\\AppData\\\\Local\\\\Temp\\\\dtm-independent-audit-0oSpBv\\\\domo-time-machine-0.1.1.tgz\",\n      \"overridden\": false,\n      \"dependencies\": {\n        \"commander\": {\n          \"version\": \"13.1.0\",\n          \"resolved\": \"https://registry.npmjs.org/commander/-/commander-13.1.0.tgz\",\n          \"overridden\": false\n        },\n        \"csv-parse\": {\n          \"version\": \"7.0.3\",\n          \"resolved\": \"https://registry.npmjs.org/csv-parse/-/csv-parse-7.0.3.tgz\",\n          \"overridden\": false\n        },\n        \"decimal.js\": {\n          \"version\": \"10.6.0\",\n          \"resolved\": \"https://registry.npmjs.org/decimal.js/-/decimal.js-10.6.0.tgz\",\n          \"overridden\": false\n        },\n        \"yaml\": {\n          \"version\": \"2.9.1\",\n          \"resolved\": \"https://registry.npmjs.org/yaml/-/yaml-2.9.1.tgz\",\n          \"overridden\": false\n        },\n        \"zod\": {\n          \"version\": \"3.25.76\",\n          \"resolved\": \"https://registry.npmjs.org/zod/-/zod-3.25.76.tgz\",\n          \"overridden\": false\n        }\n      }\n    }\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "args": [
+      "exec",
+      "--offline",
+      "--",
+      "domo-time-machine",
+      "--version"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "0.1.1\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\ShubhamMaji\\AppData\\Local\\nvm\\v22.22.0\\node_modules\\npm\\bin\\npx-cli.js",
+    "args": [
+      "--offline",
+      "domo-time-machine",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine [options] [command]\n\nTravel Back. Reproduce the Failure. Prove the Fix. Offline dataset forensics.\n\nOptions:\n  -V, --version                           output the version number\n  --workspace <path>                      Local evidence directory (default: \".domo-time-machine\")\n  --format <format>                       json or text reports (default: \"json\")\n  -h, --help                              display help for command\n\nCommands:\n  init                                    Initialize private local evidence storage\n  capture [options] <file>\n  snapshots\n  diff [options] <before> <after>\n  investigate [options] <before> <after>\n  replay [options] <scenario>\n  capsule\n  doctor\n  schema                                  Compare schemas and inspect captured history\n  validate [options] <snapshot>\n  help [command]                          display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine [options] [command]\n\nTravel Back. Reproduce the Failure. Prove the Fix. Offline dataset forensics.\n\nOptions:\n  -V, --version                           output the version number\n  --workspace <path>                      Local evidence directory (default: \".domo-time-machine\")\n  --format <format>                       json or text reports (default: \"json\")\n  -h, --help                              display help for command\n\nCommands:\n  init                                    Initialize private local evidence storage\n  capture [options] <file>\n  snapshots\n  diff [options] <before> <after>\n  investigate [options] <before> <after>\n  replay [options] <scenario>\n  capsule\n  doctor\n  schema                                  Compare schemas and inspect captured history\n  validate [options] <snapshot>\n  help [command]                          display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capture",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine capture [options] <file>\n\nOptions:\n  --name <name>\n  --dataset <dataset>     Dataset grouping (default: \"local\")\n  --key <columns>         Comma-separated business keys\n  --completeness <value>  complete, sample, filtered, unknown (default:\n                          \"unknown\")\n  --dry-run\n  -h, --help              display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "snapshots",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine snapshots [options] [command]\n\nOptions:\n  -h, --help      display help for command\n\nCommands:\n  list\n  inspect <ref>\n  help [command]  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "snapshots",
+      "list",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine snapshots list [options]\n\nOptions:\n  -h, --help  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "snapshots",
+      "inspect",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine snapshots inspect [options] <ref>\n\nOptions:\n  -h, --help  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "diff",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine diff [options] <before> <after>\n\nOptions:\n  --key <columns>\n  --after-key <columns>\n  --fail-on-change\n  --out <file>\n  -h, --help             display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "investigate",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine investigate [options] <before> <after>\n\nOptions:\n  --key <columns>\n  --metric <column>\n  --metrics <file>            JSON array of metric definitions\n  --currency <unit>\n  --currency-column <column>\n  --out <file>\n  -h, --help                  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "replay",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine replay [options] <scenario>\n\nOptions:\n  --out <file>\n  -h, --help    display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capsule",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine capsule [options] [command]\n\nOptions:\n  -h, --help                   display help for command\n\nCommands:\n  create [options] <scenario>\n  inspect <file>\n  replay <file>\n  regression [options] <file>\n  help [command]               display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capsule",
+      "create",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine capsule create [options] <scenario>\n\nOptions:\n  --out <file>\n  --reviewed    Confirm you reviewed every value in the preview\n  --synthetic   Declare synthetic input data\n  -h, --help    display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capsule",
+      "inspect",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine capsule inspect [options] <file>\n\nOptions:\n  -h, --help  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capsule",
+      "replay",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine capsule replay [options] <file>\n\nOptions:\n  -h, --help  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capsule",
+      "regression",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine capsule regression [options] <file>\n\nOptions:\n  --out <file>\n  -h, --help    display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "doctor",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine doctor [options]\n\nOptions:\n  -h, --help  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "schema",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine schema [options] [command]\n\nCompare schemas and inspect captured history\n\nOptions:\n  -h, --help                display help for command\n\nCommands:\n  history [options]\n  compare <before> <after>\n  help [command]            display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "schema",
+      "history",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine schema history [options]\n\nOptions:\n  --dataset <name>\n  -h, --help        display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "schema",
+      "compare",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine schema compare [options] <before> <after>\n\nOptions:\n  -h, --help  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "validate",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine validate [options] <snapshot>\n\nOptions:\n  --column <column>\n  --currency <currency>\n  --currency-column <column>  Currency field (default: \"Currency\")\n  --expected <amount>\n  --tolerance <amount>        Absolute decimal tolerance (default: \"0\")\n  -h, --help                  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "init",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "Usage: domo-time-machine init [options]\n\nInitialize private local evidence storage\n\nOptions:\n  -h, --help  display help for command\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "unknown"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "error: unknown command 'unknown'\nOperation failed: \"Operation failed. Check arguments, file format, snapshot integrity, privacy review, and configured limits.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "--json"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "error: unknown option '--json'\nOperation failed: \"Operation failed. Check arguments, file format, snapshot integrity, privacy review, and configured limits.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capture"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "error: required option '--name <name>' not specified\nOperation failed: \"Operation failed. Check arguments, file format, snapshot integrity, privacy review, and configured limits.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capture",
+      "missing.json"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "error: required option '--name <name>' not specified\nOperation failed: \"Operation failed. Check arguments, file format, snapshot integrity, privacy review, and configured limits.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "diff",
+      "x"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "error: missing required argument 'after'\nOperation failed: \"Operation failed. Check arguments, file format, snapshot integrity, privacy review, and configured limits.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "validate",
+      "x"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "error: required option '--column <column>' not specified\nOperation failed: \"Operation failed. Check arguments, file format, snapshot integrity, privacy review, and configured limits.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capsule",
+      "regression",
+      "x"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "error: required option '--out <file>' not specified\nOperation failed: \"Operation failed. Check arguments, file format, snapshot integrity, privacy review, and configured limits.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "init",
+      "--format",
+      "xml"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "Operation failed: \"Report format must be json or text\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "replay",
+      "missing.yaml"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "Operation failed: \"File or snapshot not found. Check the input path and capture name.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "schema",
+      "compare",
+      "missing",
+      "other"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "Operation failed: \"Snapshot not found\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\consumer.cjs",
+    "args": [],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "0.1.1\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capture",
+      "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\v0.json",
+      "--name",
+      "cli-before",
+      "--dataset",
+      "cli-history",
+      "--key",
+      "id",
+      "--completeness",
+      "complete"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "{\n  \"name\": \"cli-before\",\n  \"datasetName\": \"cli-history\",\n  \"keyColumns\": [\n    \"id\"\n  ],\n  \"dataCompleteness\": \"complete\",\n  \"schemaVersion\": 1,\n  \"id\": \"47476c99-bb4f-4c11-bd78-782209052eb4\",\n  \"capturedAt\": \"2026-10-20T08:34:55.885Z\",\n  \"format\": \"json\",\n  \"rowCount\": 3,\n  \"columnCount\": 2,\n  \"schemaHash\": \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\",\n  \"contentHash\": \"b95cf5023e8edc3969ffc9aad2f746785ca531ef8a8f965786adc57cc43730cf\",\n  \"originalHash\": \"0ee1f94ec8820ee7366daba6eb39765eb4e632a58ef67a3b9c57936522df0568\",\n  \"sourceType\": \"local\",\n  \"schema\": [\n    {\n      \"name\": \"amount\",\n      \"types\": [\n        \"string\"\n      ],\n      \"nullable\": false,\n      \"optional\": false\n    },\n    {\n      \"name\": \"id\",\n      \"types\": [\n        \"string\"\n      ],\n      \"nullable\": false,\n      \"optional\": false\n    }\n  ],\n  \"canonicalization\": \"dtm-v1\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capture",
+      "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\v1.json",
+      "--name",
+      "cli-after",
+      "--dataset",
+      "cli-history",
+      "--completeness",
+      "sample"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "{\n  \"name\": \"cli-after\",\n  \"datasetName\": \"cli-history\",\n  \"keyColumns\": [],\n  \"dataCompleteness\": \"sample\",\n  \"schemaVersion\": 1,\n  \"id\": \"c4ca63a4-eb01-4e86-9433-0bfe556d564d\",\n  \"capturedAt\": \"2026-10-20T08:34:56.950Z\",\n  \"format\": \"json\",\n  \"rowCount\": 3,\n  \"columnCount\": 2,\n  \"schemaHash\": \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\",\n  \"contentHash\": \"3e04515247ac0e37678f285ff38cd9fbe3ebbfac34cf5acb15f4c23b87cb5456\",\n  \"originalHash\": \"fd5cdb3aa0bb046fec8ea1e7f00804538f3b93d1d8a7eb525e258bfd7ba50f05\",\n  \"sourceType\": \"local\",\n  \"schema\": [\n    {\n      \"name\": \"amount\",\n      \"types\": [\n        \"string\"\n      ],\n      \"nullable\": false,\n      \"optional\": false\n    },\n    {\n      \"name\": \"id\",\n      \"types\": [\n        \"string\"\n      ],\n      \"nullable\": false,\n      \"optional\": false\n    }\n  ],\n  \"canonicalization\": \"dtm-v1\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "snapshots",
+      "list"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "[\n  {\n    \"name\": \"cli-before\",\n    \"datasetName\": \"cli-history\",\n    \"keyColumns\": [\n      \"id\"\n    ],\n    \"dataCompleteness\": \"complete\",\n    \"schemaVersion\": 1,\n    \"id\": \"47476c99-bb4f-4c11-bd78-782209052eb4\",\n    \"capturedAt\": \"2026-10-20T08:34:55.885Z\",\n    \"format\": \"json\",\n    \"rowCount\": 3,\n    \"columnCount\": 2,\n    \"schemaHash\": \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\",\n    \"contentHash\": \"b95cf5023e8edc3969ffc9aad2f746785ca531ef8a8f965786adc57cc43730cf\",\n    \"originalHash\": \"0ee1f94ec8820ee7366daba6eb39765eb4e632a58ef67a3b9c57936522df0568\",\n    \"sourceType\": \"local\",\n    \"canonicalization\": \"dtm-v1\",\n    \"schema\": [\n      {\n        \"name\": \"amount\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      },\n      {\n        \"name\": \"id\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      }\n    ]\n  },\n  {\n    \"name\": \"cli-after\",\n    \"datasetName\": \"cli-history\",\n    \"keyColumns\": [],\n    \"dataCompleteness\": \"sample\",\n    \"schemaVersion\": 1,\n    \"id\": \"c4ca63a4-eb01-4e86-9433-0bfe556d564d\",\n    \"capturedAt\": \"2026-10-20T08:34:56.950Z\",\n    \"format\": \"json\",\n    \"rowCount\": 3,\n    \"columnCount\": 2,\n    \"schemaHash\": \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\",\n    \"contentHash\": \"3e04515247ac0e37678f285ff38cd9fbe3ebbfac34cf5acb15f4c23b87cb5456\",\n    \"originalHash\": \"fd5cdb3aa0bb046fec8ea1e7f00804538f3b93d1d8a7eb525e258bfd7ba50f05\",\n    \"sourceType\": \"local\",\n    \"canonicalization\": \"dtm-v1\",\n    \"schema\": [\n      {\n        \"name\": \"amount\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      },\n      {\n        \"name\": \"id\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      }\n    ]\n  }\n]\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capture",
+      "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\v0.json",
+      "--name",
+      "dry",
+      "--dry-run"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "{\n  \"dryRun\": true,\n  \"bytes\": 91,\n  \"name\": \"dry\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "snapshots",
+      "list"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "[\n  {\n    \"name\": \"cli-before\",\n    \"datasetName\": \"cli-history\",\n    \"keyColumns\": [\n      \"id\"\n    ],\n    \"dataCompleteness\": \"complete\",\n    \"schemaVersion\": 1,\n    \"id\": \"47476c99-bb4f-4c11-bd78-782209052eb4\",\n    \"capturedAt\": \"2026-10-20T08:34:55.885Z\",\n    \"format\": \"json\",\n    \"rowCount\": 3,\n    \"columnCount\": 2,\n    \"schemaHash\": \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\",\n    \"contentHash\": \"b95cf5023e8edc3969ffc9aad2f746785ca531ef8a8f965786adc57cc43730cf\",\n    \"originalHash\": \"0ee1f94ec8820ee7366daba6eb39765eb4e632a58ef67a3b9c57936522df0568\",\n    \"sourceType\": \"local\",\n    \"canonicalization\": \"dtm-v1\",\n    \"schema\": [\n      {\n        \"name\": \"amount\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      },\n      {\n        \"name\": \"id\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      }\n    ]\n  },\n  {\n    \"name\": \"cli-after\",\n    \"datasetName\": \"cli-history\",\n    \"keyColumns\": [],\n    \"dataCompleteness\": \"sample\",\n    \"schemaVersion\": 1,\n    \"id\": \"c4ca63a4-eb01-4e86-9433-0bfe556d564d\",\n    \"capturedAt\": \"2026-10-20T08:34:56.950Z\",\n    \"format\": \"json\",\n    \"rowCount\": 3,\n    \"columnCount\": 2,\n    \"schemaHash\": \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\",\n    \"contentHash\": \"3e04515247ac0e37678f285ff38cd9fbe3ebbfac34cf5acb15f4c23b87cb5456\",\n    \"originalHash\": \"fd5cdb3aa0bb046fec8ea1e7f00804538f3b93d1d8a7eb525e258bfd7ba50f05\",\n    \"sourceType\": \"local\",\n    \"canonicalization\": \"dtm-v1\",\n    \"schema\": [\n      {\n        \"name\": \"amount\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      },\n      {\n        \"name\": \"id\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      }\n    ]\n  }\n]\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "diff",
+      "cli-before",
+      "cli-after",
+      "--key",
+      "id",
+      "--after-key",
+      "id",
+      "--out",
+      "cli-diff.json",
+      "--fail-on-change"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 1,
+    "stdout": "{\n  \"schemaVersion\": 1,\n  \"beforeSnapshotId\": \"47476c99-bb4f-4c11-bd78-782209052eb4\",\n  \"afterSnapshotId\": \"c4ca63a4-eb01-4e86-9433-0bfe556d564d\",\n  \"beforeRows\": 3,\n  \"afterRows\": 3,\n  \"added\": 1,\n  \"removed\": 1,\n  \"updated\": 1,\n  \"unchanged\": 1,\n  \"ambiguousBefore\": 0,\n  \"ambiguousAfter\": 0,\n  \"duplicateKeyGroups\": 0,\n  \"duplicates\": [],\n  \"schemaChanges\": [],\n  \"warnings\": [\n    \"At least one capture is not declared complete; findings apply only to captured records.\"\n  ],\n  \"comparisonComplete\": true,\n  \"status\": \"complete\",\n  \"matching\": {\n    \"keys\": [\n      \"id\"\n    ],\n    \"afterKeys\": [\n      \"id\"\n    ]\n  },\n  \"evidence\": [\n    {\n      \"kind\": \"updated\",\n      \"key\": \"[[\\\"value\\\",\\\"Alice\\\"]]\",\n      \"before\": [\n        {\n          \"row\": 0,\n          \"value\": {\n            \"amount\": \"100\",\n            \"id\": \"Alice\"\n          }\n        }\n      ],\n      \"after\": [\n        {\n          \"row\": 0,\n          \"value\": {\n            \"amount\": \"150\",\n            \"id\": \"Alice\"\n          }\n        }\n      ],\n      \"changedColumns\": [\n        \"amount\"\n      ]\n    },\n    {\n      \"kind\": \"removed\",\n      \"key\": \"[[\\\"value\\\",\\\"Bob\\\"]]\",\n      \"before\": [\n        {\n          \"row\": 1,\n          \"value\": {\n            \"amount\": \"200\",\n            \"id\": \"Bob\"\n          }\n        }\n      ],\n      \"after\": [],\n      \"changedColumns\": []\n    },\n    {\n      \"kind\": \"added\",\n      \"key\": \"[[\\\"value\\\",\\\"Diana\\\"]]\",\n      \"before\": [],\n      \"after\": [\n        {\n          \"row\": 2,\n          \"value\": {\n            \"amount\": \"400\",\n            \"id\": \"Diana\"\n          }\n        }\n      ],\n      \"changedColumns\": []\n    }\n  ],\n  \"evidenceHash\": \"be118c1bd1bb0733fb3bedb6767a3bbb2ce104fec9e28ad389be852a232bbb58\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "investigate",
+      "cli-before",
+      "cli-after",
+      "--key",
+      "id",
+      "--metrics",
+      "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\metrics.json",
+      "--out",
+      "cli-investigation.json"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "{\n  \"schemaVersion\": 1,\n  \"diff\": {\n    \"schemaVersion\": 1,\n    \"beforeSnapshotId\": \"47476c99-bb4f-4c11-bd78-782209052eb4\",\n    \"afterSnapshotId\": \"c4ca63a4-eb01-4e86-9433-0bfe556d564d\",\n    \"beforeRows\": 3,\n    \"afterRows\": 3,\n    \"added\": 1,\n    \"removed\": 1,\n    \"updated\": 1,\n    \"unchanged\": 1,\n    \"ambiguousBefore\": 0,\n    \"ambiguousAfter\": 0,\n    \"duplicateKeyGroups\": 0,\n    \"duplicates\": [],\n    \"schemaChanges\": [],\n    \"warnings\": [\n      \"At least one capture is not declared complete; findings apply only to captured records.\"\n    ],\n    \"comparisonComplete\": true,\n    \"status\": \"complete\",\n    \"matching\": {\n      \"keys\": [\n        \"id\"\n      ],\n      \"afterKeys\": [\n        \"id\"\n      ]\n    },\n    \"evidence\": [\n      {\n        \"kind\": \"updated\",\n        \"key\": \"[[\\\"value\\\",\\\"Alice\\\"]]\",\n        \"before\": [\n          {\n            \"row\": 0,\n            \"value\": {\n              \"amount\": \"100\",\n              \"id\": \"Alice\"\n            }\n          }\n        ],\n        \"after\": [\n          {\n            \"row\": 0,\n            \"value\": {\n              \"amount\": \"150\",\n              \"id\": \"Alice\"\n            }\n          }\n        ],\n        \"changedColumns\": [\n          \"amount\"\n        ]\n      },\n      {\n        \"kind\": \"removed\",\n        \"key\": \"[[\\\"value\\\",\\\"Bob\\\"]]\",\n        \"before\": [\n          {\n            \"row\": 1,\n            \"value\": {\n              \"amount\": \"200\",\n              \"id\": \"Bob\"\n            }\n          }\n        ],\n        \"after\": [],\n        \"changedColumns\": []\n      },\n      {\n        \"kind\": \"added\",\n        \"key\": \"[[\\\"value\\\",\\\"Diana\\\"]]\",\n        \"before\": [],\n        \"after\": [\n          {\n            \"row\": 2,\n            \"value\": {\n              \"amount\": \"400\",\n              \"id\": \"Diana\"\n            }\n          }\n        ],\n        \"changedColumns\": []\n      }\n    ],\n    \"evidenceHash\": \"be118c1bd1bb0733fb3bedb6767a3bbb2ce104fec9e28ad389be852a232bbb58\"\n  },\n  \"metrics\": [\n    {\n      \"name\": \"count\",\n      \"before\": {\n        \"definition\": {\n          \"name\": \"count\",\n          \"aggregation\": \"count\",\n          \"groupBy\": []\n        },\n        \"value\": \"3\",\n        \"missing\": 0,\n        \"nulls\": 0,\n        \"invalid\": 0,\n        \"contributors\": [],\n        \"warnings\": []\n      },\n      \"after\": {\n        \"definition\": {\n          \"name\": \"count\",\n          \"aggregation\": \"count\",\n          \"groupBy\": []\n        },\n        \"value\": \"3\",\n        \"missing\": 0,\n        \"nulls\": 0,\n        \"invalid\": 0,\n        \"contributors\": [],\n        \"warnings\": []\n      },\n      \"absoluteChange\": \"0\",\n      \"percentageChange\": \"0\",\n      \"groupedContributions\": [],\n      \"evidence\": {\n        \"beforeSnapshotId\": \"47476c99-bb4f-4c11-bd78-782209052eb4\",\n        \"afterSnapshotId\": \"c4ca63a4-eb01-4e86-9433-0bfe556d564d\"\n      }\n    }\n  ],\n  \"findings\": [],\n  \"limitations\": [\n    \"Capture time is not source change time.\",\n    \"Differences and join hypotheses do not establish financial correctness.\"\n  ],\n  \"reportHash\": \"143e2f2dc67220c352245d982b8ba074ec9eab48c41c52e1ae1eb8cc825a7d25\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "replay",
+      "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\cli-scenario.json",
+      "--out",
+      "cli-replay.json"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "{\n  \"schemaVersion\": 1,\n  \"engine\": \"dtm-reference\",\n  \"engineVersion\": \"0.1.1\",\n  \"runtime\": \"v22.22.0\",\n  \"settings\": {\n    \"decimalPrecision\": 120,\n    \"divisionSignificantDigits\": 40,\n    \"sort\": \"typed-canonical-codepoint\",\n    \"nullJoinKeys\": \"never-match\",\n    \"deduplicate\": \"first-input-row\"\n  },\n  \"inputReferences\": {\n    \"data\": \"cli-before\"\n  },\n  \"inputHashes\": {\n    \"data\": \"b5b87d3cb0893d5c96440b28d1aff259163eeaf8ae59131fceec4e66d4cfa942\"\n  },\n  \"definition\": {\n    \"version\": 1,\n    \"name\": \"cli\",\n    \"inputs\": {\n      \"data\": \"cli-before\"\n    },\n    \"steps\": [\n      {\n        \"id\": \"out\",\n        \"input\": \"data\",\n        \"operation\": \"select\",\n        \"columns\": [\n          \"id\"\n        ]\n      }\n    ],\n    \"output\": \"out\",\n    \"assertions\": []\n  },\n  \"rows\": [\n    {\n      \"id\": \"Alice\"\n    },\n    {\n      \"id\": \"Bob\"\n    },\n    {\n      \"id\": \"Charlie\"\n    }\n  ],\n  \"steps\": [\n    {\n      \"id\": \"out\",\n      \"operation\": \"select\",\n      \"rows\": 3,\n      \"inputRows\": 3\n    }\n  ],\n  \"assertions\": [],\n  \"warnings\": [],\n  \"passed\": true,\n  \"outputHash\": \"f464ba65a849763aadd10c792a4d9a297d56a7a2df6d1463f91f9c0caae847ca\",\n  \"limitations\": [\n    \"Supported DSL only; not a Magic ETL emulator.\",\n    \"Deduplication requires explicit business approval; legitimate ticket charges may need separate accounting rules.\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "schema",
+      "history",
+      "--dataset",
+      "cli-history"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "[\n  {\n    \"datasetName\": \"cli-history\",\n    \"snapshotId\": \"47476c99-bb4f-4c11-bd78-782209052eb4\",\n    \"capturedAt\": \"2026-10-20T08:34:55.885Z\",\n    \"schemaHash\": \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\",\n    \"previousSnapshotId\": null,\n    \"changes\": [],\n    \"schema\": [\n      {\n        \"name\": \"amount\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      },\n      {\n        \"name\": \"id\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      }\n    ]\n  },\n  {\n    \"datasetName\": \"cli-history\",\n    \"snapshotId\": \"c4ca63a4-eb01-4e86-9433-0bfe556d564d\",\n    \"capturedAt\": \"2026-10-20T08:34:56.950Z\",\n    \"schemaHash\": \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\",\n    \"previousSnapshotId\": \"47476c99-bb4f-4c11-bd78-782209052eb4\",\n    \"changes\": [],\n    \"schema\": [\n      {\n        \"name\": \"amount\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      },\n      {\n        \"name\": \"id\",\n        \"types\": [\n          \"string\"\n        ],\n        \"nullable\": false,\n        \"optional\": false\n      }\n    ]\n  }\n]\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capture",
+      "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\v0.json",
+      "--name",
+      "invalid-completeness",
+      "--completeness",
+      "invalid"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "Operation failed: \"Invalid configuration or replay definition. Check field names and supported operations with --help.\"\n"
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "--format",
+      "text",
+      "snapshots",
+      "inspect",
+      "cli-before"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 0,
+    "stdout": "metadata.name: \"cli-before\"\nmetadata.datasetName: \"cli-history\"\nmetadata.keyColumns[0]: \"id\"\nmetadata.dataCompleteness: \"complete\"\nmetadata.schemaVersion: 1\nmetadata.id: \"47476c99-bb4f-4c11-bd78-782209052eb4\"\nmetadata.capturedAt: \"2026-10-20T08:34:55.885Z\"\nmetadata.format: \"json\"\nmetadata.rowCount: 3\nmetadata.columnCount: 2\nmetadata.schemaHash: \"46e0e164b1e5047909edefb64691c4770b187b3b8b55d596ad67d217353898ca\"\nmetadata.contentHash: \"b95cf5023e8edc3969ffc9aad2f746785ca531ef8a8f965786adc57cc43730cf\"\nmetadata.originalHash: \"0ee1f94ec8820ee7366daba6eb39765eb4e632a58ef67a3b9c57936522df0568\"\nmetadata.sourceType: \"local\"\nmetadata.canonicalization: \"dtm-v1\"\nmetadata.schema[0].name: \"amount\"\nmetadata.schema[0].types[0]: \"string\"\nmetadata.schema[0].nullable: false\nmetadata.schema[0].optional: false\nmetadata.schema[1].name: \"id\"\nmetadata.schema[1].types[0]: \"string\"\nmetadata.schema[1].nullable: false\nmetadata.schema[1].optional: false\nintegrity: \"verified\"\npreview[0].amount: \"100\"\npreview[0].id: \"Alice\"\npreview[1].amount: \"200\"\npreview[1].id: \"Bob\"\npreview[2].amount: \"300\"\npreview[2].id: \"Charlie\"\n",
+    "stderr": ""
+  },
+  {
+    "file": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv\\node_modules\\domo-time-machine\\dist\\cli\\index.js",
+    "args": [
+      "capture",
+      "examples/booking-reconciliation/bookings.csv",
+      "--name",
+      "readme-bookings"
+    ],
+    "cwd": "C:\\Users\\SHUBHA~1\\AppData\\Local\\Temp\\dtm-independent-audit-0oSpBv",
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "Operation failed: \"File or snapshot not found. Check the input path and capture name.\"\n"
+  }
+]

@@ -83,7 +83,7 @@ await check('fresh normal npm installation and executable discovery', async () =
     const packed = JSON.parse(execute(npm, ['pack', '--json'], { cwd: project }).stdout)[0];
     target = join(artifactDirectory('packages'), packed.filename);
   }
-  execute(npm, ['install', '--no-audit', '--no-fund', ...(published ? [] : ['--offline']), target]);
+  execute(npm, ['install', '--no-audit', '--no-fund', '--prefer-offline', target]);
   const dependencies = JSON.parse(execute(npm, ['ls', '--omit=dev', '--all', '--json']).stdout);
   assert.equal(dependencies.dependencies[pkg.name].version, testedVersion);
   assert.equal(

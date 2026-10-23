@@ -51,7 +51,7 @@
     "qa:report": "node scripts/qa-report.mjs"
   },
   "dependencies": {
-    "commander": "^13.1.0",
+    "commander": "^15.0.0",
     "csv-parse": "^7.0.3",
     "decimal.js": "^10.6.0",
     "yaml": "^2.8.1",
